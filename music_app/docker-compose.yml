@@ -1,0 +1,22 @@
+# Вторая СУБД для ЛР2 (АБД): ClickHouse. Запуск из папки music_app:  docker compose up -d
+# Параметры подключения совпадают с .env.example (CH_USER / CH_PASSWORD / CH_DATABASE).
+services:
+  clickhouse:
+    image: clickhouse/clickhouse-server:24.8
+    container_name: music-clickhouse
+    ports:
+      - "8123:8123"   # HTTP (используется clickhouse-connect)
+      - "9000:9000"   # native
+    environment:
+      CLICKHOUSE_DB: music_mart
+      CLICKHOUSE_USER: music
+      CLICKHOUSE_PASSWORD: music_pass
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: "1"
+    volumes:
+      - ch_data:/var/lib/clickhouse
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+volumes:
+  ch_data:

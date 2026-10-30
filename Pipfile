@@ -12,6 +12,7 @@ matplotlib = "*"
 seaborn = "*"
 autopep8 = "*"
 psycopg2-binary = "*"
+clickhouse-connect = "*"
 
 [dev-packages]
 

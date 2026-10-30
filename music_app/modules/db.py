@@ -1,4 +1,4 @@
-"""Работа с PostgreSQL: подключение, инициализация, загрузка CSV, вызов функций слоёв."""
+"""Работа с PostgreSQL: подключение, инициализация, загрузка CSV и партий, вызов функций слоёв, витрина."""
 import hashlib
 import io
 import os
@@ -11,7 +11,7 @@ import psycopg2
 from . import analysis as an
 from .config import DAY_ORDER, DATA_PATH, DT_START, DT_WEEKS, INDEX_COL, ROOT, SQL_DIR
 
-SRC_COLS = ["src_index", "userid", "track", "artist", "genre", "city", "time", "day", "dt"]
+SRC_COLS = ["src_index", "userid", "track", "artist", "genre", "city", "time", "day", "dt", "batch_id"]
 CSV_COLS = ["userID", "Track", "artist", "genre", "City", "time", "Day"]
 
 
@@ -25,6 +25,9 @@ def _env() -> dict:
                 k, v = line.split("=", 1)
                 env[k.strip()] = v.strip().strip('"')
     return env
+
+
+get_env = _env   # публичное имя: настройки .env нужны и модулю второй СУБД
 
 
 def conn_params(dbname=None) -> dict:
@@ -70,22 +73,49 @@ def make_dt(df: pd.DataFrame) -> list:
     return [DT_START + timedelta(weeks=w, days=int(d)) for w, d in zip(weeks, wd)]
 
 
+def _replace_batch(out: pd.DataFrame, batch_id: int) -> int:
+    """Идемпотентная загрузка партии в src: удаляет ту же партию и копирует данные заново.
+    Другие партии и слои хранилища не затрагиваются (без полного пересоздания)."""
+    out = out.copy()
+    out["batch_id"] = batch_id
+    buf = io.StringIO()
+    out[SRC_COLS].to_csv(buf, index=False, header=False)
+    buf.seek(0)
+    cols = ",".join(f'"{c}"' for c in SRC_COLS)
+    with tx() as conn, conn.cursor() as cur:
+        cur.execute("DELETE FROM src.music_tracks WHERE batch_id = %s", (batch_id,))
+        cur.copy_expert(f"COPY src.music_tracks ({cols}) FROM STDIN WITH (FORMAT csv)", buf)
+        cur.execute("SELECT count(*) FROM src.music_tracks WHERE batch_id = %s", (batch_id,))
+        return cur.fetchone()[0]
+
+
 def load_source(path=DATA_PATH) -> int:
-    """Первоначальная загрузка CSV -> src.music_tracks (все поля текстом + dt)."""
+    """Первоначальная загрузка CSV -> src.music_tracks (все поля текстом + dt), партия 0.
+    Перезаписывает только партию 0, синтетические партии остаются."""
     raw = an.load_raw(path)
     out = pd.DataFrame({"src_index": raw[INDEX_COL] if INDEX_COL in raw.columns else pd.Series(range(len(raw))).astype(str)})
     for name, col in zip(SRC_COLS[1:8], CSV_COLS):
         out[name] = raw[col]
     out["dt"] = make_dt(raw)
-    buf = io.StringIO()
-    out.to_csv(buf, index=False, header=False)
-    buf.seek(0)
-    cols = ",".join(f'"{c}"' for c in SRC_COLS)
-    with tx() as conn, conn.cursor() as cur:
-        cur.execute("TRUNCATE TABLE src.music_tracks")
-        cur.copy_expert(f"COPY src.music_tracks ({cols}) FROM STDIN WITH (FORMAT csv)", buf)
-        cur.execute("SELECT count(*) FROM src.music_tracks")
-        return cur.fetchone()[0]
+    return _replace_batch(out, 0)
+
+
+def load_batch(path) -> dict:
+    """Загрузка синтетической партии из CSV генератора в src.music_tracks (ЛР2)."""
+    df = pd.read_csv(path, dtype=str, keep_default_na=False, na_values=[""])
+    miss = {"src_index", "dt", "batch_id", *CSV_COLS} - set(df.columns)
+    if miss:
+        raise ValueError(f"В файле {path} нет колонок: {', '.join(sorted(miss))}")
+    ids = df["batch_id"].dropna().unique()
+    if len(ids) != 1 or int(ids[0]) < 1:
+        raise ValueError("Файл должен содержать одну партию с batch_id >= 1 (0 — исходный CSV)")
+    dts = pd.to_datetime(df["dt"], format="%Y-%m-%d")
+    out = pd.DataFrame({"src_index": df["src_index"]})
+    for name, col in zip(SRC_COLS[1:8], CSV_COLS):
+        out[name] = df[col]
+    out["dt"] = df["dt"]
+    n = _replace_batch(out, int(ids[0]))
+    return {"batch_id": int(ids[0]), "rows": n, "dt_min": dts.min().date(), "dt_max": dts.max().date()}
 
 
 def run_staging() -> int:
@@ -98,6 +128,13 @@ def run_ods(sdt, edt) -> int:
     with tx() as conn, conn.cursor() as cur:
         cur.execute("SELECT ods.load_ods(%s, %s)", (sdt, edt))
         return cur.fetchone()[0]
+
+
+def fetch_rows(sql: str, params=None):
+    """Возвращает (имена колонок, список кортежей) без приведения типов — для переноса между СУБД."""
+    with tx() as conn, conn.cursor() as cur:
+        cur.execute(sql, params)
+        return [d[0] for d in cur.description], cur.fetchall()
 
 
 def query(sql: str, params=None) -> pd.DataFrame:
@@ -131,6 +168,23 @@ def run_dwh(sdt, edt) -> int:
         return cur.fetchone()[0]
 
 
+def run_mart(sdt, edt) -> int:
+    """Загрузка аналитической витрины DWH за период (ЛР2)."""
+    with tx() as conn, conn.cursor() as cur:
+        cur.execute("SELECT dwh.load_mart(%s, %s)", (sdt, edt))
+        return cur.fetchone()[0]
+
+
+def state_token() -> str:
+    """Быстрый «отпечаток» состояния хранилища: меняется после любой загрузки. Нужен для кэша страницы."""
+    r = query("""SELECT (SELECT count(*) FROM src.music_tracks) AS s, (SELECT count(*) FROM stg.music_tracks) AS g,
+       (SELECT count(*) FROM ods.music_tracks) AS o, (SELECT count(*) FROM dwh.fact_listening) AS f,
+       (SELECT count(*) FROM dwh.mart_listening_daily) AS m,
+       (SELECT COALESCE(max(run_id), 0) FROM ods.load_run_log) AS r,
+       (SELECT COALESCE(max(loaded_at)::text, '') FROM dwh.mart_listening_daily) AS ml""")
+    return "|".join(str(v) for v in r.iloc[0])
+
+
 DWH_CHECKS = {
     "Строк в таблицах DWH": """SELECT 'fact_listening' AS tbl, count(*) AS rows FROM dwh.fact_listening
 UNION ALL SELECT 'dim_user', count(*) FROM dwh.dim_user
@@ -144,6 +198,9 @@ UNION ALL SELECT 'dim_time', count(*) FROM dwh.dim_time
 UNION ALL SELECT 'dim_daypart', count(*) FROM dwh.dim_daypart""",
     "Сверка: ODS и факты (числа должны совпасть)": """SELECT (SELECT count(*) FROM ods.music_tracks) AS ods_rows,
        (SELECT count(*) FROM dwh.fact_listening) AS fact_rows""",
+    "Витрина: сверка с фактами (числа должны совпасть)": """SELECT (SELECT count(*) FROM dwh.fact_listening) AS fact_rows,
+       (SELECT COALESCE(sum(listens_cnt), 0) FROM dwh.mart_listening_daily) AS mart_listens,
+       (SELECT count(*) FROM dwh.mart_listening_daily) AS mart_rows""",
     "Топ-10 жанров": """SELECT g.genre_name, count(*) AS listens
 FROM dwh.fact_listening f JOIN dwh.dim_genre g ON g.genre_key = f.genre_key
 GROUP BY g.genre_name ORDER BY listens DESC LIMIT 10""",

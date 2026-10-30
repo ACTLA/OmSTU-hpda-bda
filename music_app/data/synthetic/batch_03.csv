@@ -1,0 +1,648 @@
+src_index,userID,Track,artist,genre,City,time,Day,dt,batch_id
+S3-0000000,ED229697,Take a Chance,Moullinex,electronic,Moscow,13:48:59,Wednesday,2025-07-09,3
+S3-0000001,7DE2A044,Coming Back to You,Naya,alternative,Moscow,21:55:15,Friday,2025-07-11,3
+S3-0000002,7A83953E,Wild Road 25,unknown,unknown,Saint-Petersburg,13:57:02,Friday,2025-07-25,3
+S3-0000003,A4AF16B1,Lost Times,Glasslands,speech,Moscow,08:55:59,Wednesday,2025-07-09,3
+S3-0000004,E011D9E2,Blue Light 915,Vera Fox,blues,Moscow,08:05:05,Friday,2025-07-25,3
+S3-0000005,46A54345,Burn To Shine,Ben Harper & The Innocent Criminals,pop,Moscow,08:30:41,Monday,2025-07-07,3
+S3-0000006,ACDEC865,81,Sean Leon,hip,Moscow,21:02:32,Monday,2025-07-14,3
+S3-0000007,5225CB3F,Emperor Waltz,Иоганн Штраус-сын,электроника,Saint-Petersburg,13:32:54,Friday,2025-07-18,3
+S3-0000008,A2163F8F,Streets Of London / Pachelbel's Canon,Alison Vardy,folk,Saint-Petersburg,13:04:30,Friday,2025-07-18,3
+S3-0000009,601E45B1,Рая,unknown,shanson,Saint-Petersburg,20:58:20,Monday,2025-07-07,3
+S3-0000010,B9E253A4,Sugar [Maroon 5 Cover],Cover Pop,pop,Saint-Petersburg,08:33:20,Monday,2025-07-21,3
+S3-0000011,DA03BA77,Whiskey In My Coffee,The Apocalypse Blues Revue,blues,Saint-Petersburg,08:34:56,Monday,2025-07-21,3
+S3-0000012,F49634B3,Stripper,Sohodolls,pop,Saint-Petersburg,09:06:49,Friday,2025-07-25,3
+S3-0000013,CE83E70A,Wild Signal 629,Lera Frost,estrada,Moscow,21:27:04,Friday,2025-07-11,3
+S3-0000014,8C5502E8,Ohne Dich (schlaf' ich heut Nacht nicht ein),Münchener Freiheit,schlager,Moscow,14:10:23,Monday,2025-07-07,3
+S3-0000015,399447E8,Blue Shadow 424,Lera Hart,instrumental,Moscow,08:32:59,Friday,2025-08-01,3
+S3-0000016,A7B30367,STAND BY ME,IWAO,newwave,Moscow,14:26:28,Monday,2025-07-14,3
+S3-0000017,1ACA485C,Quaalude,unknown,unknown,Moscow,21:34:55,Friday,2025-08-01,3
+S3-0000018,2139C733,Everybody’s Got To Learn Sometime,The Korgis,karaoke,Saint-Petersburg,14:43:53,Friday,2025-07-18,3
+S3-0000019,D4068973,La Bomba,Jump,industrial,Saint-Petersburg,20:23:29,Monday,2025-07-21,3
+S3-0000020,8A2935F4,TaylorBabeSoul!!!,9th Wonder,triphop,Saint-Petersburg,14:27:05,Monday,2025-07-14,3
+S3-0000021,C56009A1,Act 1: La vendetta oh la vendetta (Bartolo),Marjan Russ/Wiener Philharmoniker/Herbert von Karajan,contemporary,Saint-Petersburg,08:08:13,Wednesday,2025-07-30,3
+S3-0000022,007230EA,Heaven & Hell,The Easybeats,rock,Saint-Petersburg,08:56:18,Monday,2025-07-14,3
+S3-0000023,94B01987,Full Moon over Georgia,Andrea Colburn & Mud Moseley,grunge,Moscow,13:20:09,Wednesday,2025-07-09,3
+S3-0000024,57C03324,Banz,Ramo,hip,Saint-Petersburg,09:49:00,Friday,2025-07-11,3
+S3-0000025,514DD892,unknown,Weathertunes,dance,Saint-Petersburg,09:15:41,Monday,2025-07-14,3
+S3-0000026,B1EACDFE,Невесомостью,Катя Блейри,ruspop,Moscow,08:15:22,Wednesday,2025-07-09,3
+S3-0000027,2183321D,Like You,unknown,metal,Moscow,08:12:34,Monday,2025-07-21,3
+S3-0000028,127347DF,Лада,Саша Скул,rusrap,Saint-Petersburg,13:05:21,Wednesday,2025-07-23,3
+S3-0000029,4AC419DB,We Go Up,Jaxon,rnb,Moscow,13:01:24,Wednesday,2025-07-30,3
+S3-0000030,8CE9723A,Человек и человек,Кошки Jam,rusrock,Moscow,08:30:49,Wednesday,2025-07-30,3
+S3-0000031,B4F73CF9,Coming Home,Jarle Skavhellen,salsa,Saint-Petersburg,08:22:54,Monday,2025-07-28,3
+S3-0000032,7EC81C60,Overload,Dot Rotten,hip,Saint-Petersburg,13:26:34,Friday,2025-07-11,3
+S3-0000033,88E2FE4F,Broken City 836,Mira Frost,pop,Saint-Petersburg,21:05:43,Wednesday,2025-07-30,3
+S3-0000034,8859F14F,Home Base,Bobby Storc,africa,Moscow,09:39:12,Wednesday,2025-07-09,3
+S3-0000035,D9FF7DDA,Got 2 Luv U (I Don't Even Wanna Fight),Flo Dancer,pop,Moscow,20:33:52,Wednesday,2025-07-16,3
+S3-0000036,AA16DBFA,Get Thru,Dryer,rock,Moscow,14:12:21,Monday,2025-07-21,3
+S3-0000037,B41EC85E,Hold the Line,Soul Sister Dance Revolution,rock,Saint-Petersburg,08:42:05,Wednesday,2025-07-23,3
+S3-0000038,DE3E24C8,Teardrop,Kristy Landgren,rock,Moscow,20:47:05,Wednesday,2025-07-09,3
+S3-0000039,03630AF4,Sophia,Mozkai,electronic,Moscow,20:33:03,Friday,2025-07-18,3
+S3-0000040,E55D9D83,The Saga,Shades,electronic,Moscow,20:30:16,Friday,2025-07-25,3
+S3-0000041,48A0EC5D,Silent Signal 778,unknown,cantopop,Saint-Petersburg,20:29:43,Friday,2025-08-01,3
+S3-0000042,02E6AF17,Our Love (Will Always Last),The Piano Man,synthrock,Moscow,20:03:44,Wednesday,2025-07-09,3
+S3-0000043,08C164CC,Uranium Fever,Elton Britt,pop,Moscow,13:51:08,Friday,2025-08-01,3
+S3-0000044,CEDED87D,Lazy Fire 546,unknown,rnb,Saint-Petersburg,20:12:42,Monday,2025-07-14,3
+S3-0000045,336558C1,Into You,Halocene,rock,Moscow,08:31:20,Monday,2025-07-07,3
+S3-0000046,9FD2E912,Where Is My Mind,Ariane Moffatt,soundtrack,Moscow,14:50:49,Wednesday,2025-07-30,3
+S3-0000047,AC036EE7,Wisconsin,Whitehorse,downtempo,Saint-Petersburg,08:43:42,Wednesday,2025-07-30,3
+S3-0000048,BEEFE30F,Fallin',Poema,singer,Moscow,14:07:11,Monday,2025-07-14,3
+S3-0000049,4A146259,The Real Thing,Tony Di Bart,russian,Saint-Petersburg,20:41:12,Wednesday,2025-07-16,3
+S3-0000050,7F6FD187,Лавина,Артем Каменский,ruspop,Saint-Petersburg,21:22:42,Wednesday,2025-07-16,3
+S3-0000051,BA274492,Lambada,Simons,progmetal,Moscow,13:55:15,Monday,2025-07-21,3
+S3-0000052,9263AEEF,Gülüm Benim,İbrahim Tatlıses,alternativepunk,Moscow,09:41:48,Wednesday,2025-07-23,3
+S3-0000053,5831ADAA,Monica Bellucci,K'onDrat,dance,Moscow,13:28:16,Monday,2025-07-14,3
+S3-0000054,A1BD7B91,Beer Can,Captain We're Sinking,avantgarde,Moscow,09:47:48,Friday,2025-08-01,3
+S3-0000055,AF5C3958,Other Side of Love,Photronique,pop,Saint-Petersburg,13:17:57,Monday,2025-07-28,3
+S3-0000056,A4AF16B1,California Dreamin,unknown,dance,Saint-Petersburg,20:48:23,Monday,2025-07-21,3
+S3-0000057,960F8E63,Amma,Sunna,alternative,Moscow,21:47:10,Friday,2025-08-01,3
+S3-0000058,1364D7D8,Symphonie (On Stage),Silbermond,pop,Saint-Petersburg,14:57:33,Monday,2025-07-21,3
+S3-0000059,925743C3,Welcome to Heaven,Direct Hit!,punk,Moscow,13:11:40,Friday,2025-07-25,3
+S3-0000060,08EB732A,Faster Sooner Now,David Gray,rock,Saint-Petersburg,14:47:05,Friday,2025-07-18,3
+S3-0000061,9F477D82,Are Lord Narayana and Maha Vishnu the Same,Bhakti Marga,children,Moscow,08:19:01,Friday,2025-07-11,3
+S3-0000062,C3EB977C,Out Of Orbit,Jaïa,progressive,Moscow,08:11:20,Friday,2025-08-01,3
+S3-0000063,999EB7C6,USA är redo för demokrati,Mikael Wiehe,pop,Moscow,13:47:02,Friday,2025-07-25,3
+S3-0000064,394C4D6E,Love And Mercy,Gazelle Twin,soundtrack,Moscow,20:00:12,Monday,2025-07-14,3
+S3-0000065,BE0C6513,Soon and Very Soon,Brainards,rockother,Saint-Petersburg,20:45:43,Wednesday,2025-07-16,3
+S3-0000066,1ADC4564,Flames,Circus Maximus,progmetal,Saint-Petersburg,08:31:50,Monday,2025-07-07,3
+S3-0000067,3B92BE9C,Михаил Круг,Ленский,southern,Moscow,20:10:05,Friday,2025-07-18,3
+S3-0000068,563A9AE4,End Of The Line,unknown,rock,Saint-Petersburg,20:40:10,Friday,2025-07-11,3
+S3-0000069,BD0E7BE5,Erase (Stripped),FRND,rap,Saint-Petersburg,08:48:48,Friday,2025-08-01,3
+S3-0000070,69637B17,Eisenmann,Totem Obscura,electronic,Saint-Petersburg,20:09:09,Wednesday,2025-07-09,3
+S3-0000071,F6C142C0,Strangers,Emily Vaughn,new,Saint-Petersburg,08:16:11,Friday,2025-07-11,3
+S3-0000072,D05CAAED,Piano Phase,Steve Reich,classical,Moscow,14:02:12,Monday,2025-07-07,3
+S3-0000073,053A579E,Push Eject,Boom Boom Satellites,rock,Moscow,21:50:27,Friday,2025-07-25,3
+S3-0000074,48F3A640,The Fight!,Amala,pop,Saint-Petersburg,09:08:11,Wednesday,2025-07-16,3
+S3-0000075,269FC1FE,Atlanta,Dj Wolfz,unknown,Saint-Petersburg,09:12:13,Wednesday,2025-07-30,3
+S3-0000076,267AC9A4,Armenian Dance,Daniil Shafran,classical,Saint-Petersburg,13:26:41,Monday,2025-07-14,3
+S3-0000077,51B66E63,Paper Echo 82,Mira Volkov,folk,Moscow,13:57:16,Friday,2025-07-18,3
+S3-0000078,69B48E35,Adventure,JJD,electronic,Saint-Petersburg,09:30:44,Monday,2025-07-14,3
+S3-0000079,62CCAA4E,unknown,Mani Bella,minimal,Moscow,21:03:50,Wednesday,2025-07-16,3
+S3-0000080,5AA6A159,Living on My Own,90er Musik Box,pop,Moscow,14:53:28,Friday,2025-07-18,3
+S3-0000081,3E4BFAA7,Electric Garden 879,Dana Wolf,indian,Saint-Petersburg,08:46:29,Friday,2025-07-18,3
+S3-0000082,6866D9AE,What a Lfie,Sayell,mexican,Moscow,20:21:42,Monday,2025-07-07,3
+S3-0000083,9EC19A1B,unknown,unknown,k-pop,Saint-Petersburg,09:40:35,Wednesday,2025-07-09,3
+S3-0000084,175D71E7,Wild Machine 892,Vera Rey,hardtechno,Moscow,20:51:49,Wednesday,2025-07-09,3
+S3-0000085,A2DAC233,Half the City,St. Paul & The Broken Bones,rnb,Saint-Petersburg,09:38:48,Wednesday,2025-07-09,3
+S3-0000086,F94C88E2,Midnight Shadow 248,Ivan Lane,classical,Moscow,20:08:01,Monday,2025-07-21,3
+S3-0000087,4675AC22,Himalaja,unknown,grunge,Saint-Petersburg,09:27:29,Friday,2025-07-18,3
+S3-0000088,9175C878,Мы с тобой одной крови,Денис Майданов feat. Баян Микс,unknown,Saint-Petersburg,14:16:30,Wednesday,2025-07-23,3
+S3-0000089,91CC23B5,Hope & Pray,The Underground Youth,rock,Saint-Petersburg,09:47:19,Friday,2025-07-11,3
+S3-0000090,B0639ABA,Success,Chi,hip,Moscow,09:05:43,Monday,2025-07-28,3
+S3-0000091,AAED6DAD,Your Touch,Blake Lewis,pop,Saint-Petersburg,08:20:11,Monday,2025-07-14,3
+S3-0000092,8F37D5A5,Чакра медитация: путь,Reiki Ensemble,new,Moscow,09:16:50,Monday,2025-07-14,3
+S3-0000093,7618558B,Canzoni stonate,Gianni Morandi,estrada,Moscow,09:44:55,Monday,2025-07-14,3
+S3-0000094,499D2CA7,"Mozart: Serenade In G K.525 ""Eine kleine Nachtmusik"" - 2. Romance (Andante)",Berlin Philharmonic Orchestra,classical,Saint-Petersburg,14:26:35,Monday,2025-07-21,3
+S3-0000095,7AFB71AA,Twist And Shout,Chaka Demus & Pliers,pop,Saint-Petersburg,14:35:46,Monday,2025-07-21,3
+S3-0000096,28D0EF6F,Papaoutai,Tribute to Stromae,electronic,Moscow,14:09:39,Wednesday,2025-07-30,3
+S3-0000097,62ABE29A,Мне нужна Москва,unknown,grime,Saint-Petersburg,13:26:26,Wednesday,2025-07-30,3
+S3-0000098,56670BEE,Elevate Levitate,Naïve,progmetal,Saint-Petersburg,21:14:52,Friday,2025-07-11,3
+S3-0000099,996CBB29,Vivaldi: Concerto for Strings and Continuo in D minor R.127 - 3. Allegro,Venice Baroque Orchestra,baile,Moscow,14:37:57,Friday,2025-08-01,3
+S3-0000100,41D5234B,Chun Feng Chui Kai Wo Di Xin,Lan Ge,tatar,Moscow,08:42:04,Monday,2025-07-07,3
+S3-0000101,CD03BAEC,unknown,D'Sound,piano,Moscow,14:58:09,Wednesday,2025-07-09,3
+S3-0000102,027632C2,Money Game,Soul Of The Cave,metal,Moscow,13:40:03,Friday,2025-07-18,3
+S3-0000103,3596AEB7,Жить сейчас,Atava,alternative,Saint-Petersburg,08:49:23,Friday,2025-08-01,3
+S3-0000104,9D378AA6,Out of Time,Sasha feat. Poliça,electronic,Moscow,13:34:45,Friday,2025-07-11,3
+S3-0000105,5BFD837F,Солнце,Аффинаж,rusrock,Moscow,13:24:09,Monday,2025-07-28,3
+S3-0000106,B5442B7E,Только имя,unknown,ruspop,Saint-Petersburg,09:57:48,Monday,2025-07-28,3
+S3-0000107,64F229D6,Tomala con soda,Victor Orchestra,latin,Saint-Petersburg,14:13:23,Wednesday,2025-07-30,3
+S3-0000108,40D729D9,Villa in der Schlossallee,Helene Fischer,indipop,Saint-Petersburg,14:35:39,Wednesday,2025-07-16,3
+S3-0000109,7530B7A8,Hat to the Back,unknown,nu,Saint-Petersburg,14:47:49,Monday,2025-07-07,3
+S3-0000110,832698F0,Bacardi Thot,unknown,arabic,Moscow,14:42:41,Wednesday,2025-07-16,3
+S3-0000111,EFBADDBA,So Beautiful Eyes,Tip Top Tellix,rock,Moscow,13:58:37,Monday,2025-07-07,3
+S3-0000112,D4FB81B7,Electric Fire 195,Lera Stone,irish,Moscow,13:33:55,Monday,2025-07-21,3
+S3-0000113,D2A93BB9,Mental House,Afromental,pop,Moscow,20:30:10,Monday,2025-07-07,3
+S3-0000114,56CC1C1D,California,Charlotte Cardin,alternative,Moscow,08:06:41,Wednesday,2025-07-23,3
+S3-0000115,D92D3552,Glass: Confession (Notes on a Scandal),Orchestra,film,Moscow,20:07:19,Wednesday,2025-07-09,3
+S3-0000116,04266988,Hallucinate,Mvkxxx,dance,Moscow,21:00:58,Wednesday,2025-07-30,3
+S3-0000117,CD415800,Hortensia,Tromboranga,latin,Saint-Petersburg,20:46:29,Friday,2025-07-11,3
+S3-0000118,BCC6813A,Biadmiral: They Discuss the Strange Nature of the Mysterious Biadmiral (Half Ai Half Human) [Brinn Produces Evidence for a Complex Carbon-Based Life Form],J.D.Venne,quebecois,Saint-Petersburg,20:43:36,Wednesday,2025-07-30,3
+S3-0000119,71BC0794,Не лезь,unknown,beats,Moscow,21:00:43,Monday,2025-07-28,3
+S3-0000120,DEB14630,Don't Lie To Me,Shakin' Stevens,pop,Moscow,13:38:34,Monday,2025-07-14,3
+S3-0000121,3488421A,Solar Circle,unknown,dance,Moscow,14:10:37,Monday,2025-07-21,3
+S3-0000122,B271E7EB,Lazy Shadow 253,Mira Frost,world,Saint-Petersburg,14:44:08,Monday,2025-07-14,3
+S3-0000123,5A3A1084,Am Ende,OK KID,pop,Saint-Petersburg,08:19:50,Monday,2025-07-21,3
+S3-0000124,6FE34125,Тролль,Время и Стекло,pop,Moscow,09:30:00,Monday,2025-07-21,3
+S3-0000125,D9E76A15,Bound For Eternity,Redhead,dance,Saint-Petersburg,08:39:38,Monday,2025-07-21,3
+S3-0000126,05AF53D5,A Necessidade,Jose Nando,pop,Moscow,13:44:00,Wednesday,2025-07-30,3
+S3-0000127,F3DF71DF,Damaged,Ghost of April,metal,Saint-Petersburg,14:15:15,Friday,2025-07-25,3
+S3-0000128,9CA0332A,Up in the Air (In the Style of 30 Seconds to Mars),Metro karaoke,pop,Saint-Petersburg,08:46:30,Wednesday,2025-07-16,3
+S3-0000129,3988D873,Red Song,Hey Rosetta!,rock,Moscow,21:37:36,Monday,2025-07-21,3
+S3-0000130,982233FC,Paper City 482,Alex Fox,german,Moscow,14:10:49,Monday,2025-07-21,3
+S3-0000131,7C2A7063,Real Girls Eat Cake,The Janoskians,pop,Moscow,13:37:51,Wednesday,2025-07-30,3
+S3-0000132,DCE3E628,Он так её любил,Юрий Хой,metal,Moscow,13:19:08,Wednesday,2025-07-16,3
+S3-0000133,9A0C1BB0,Distant Light 838,Ilya Wolf,synthpop,Moscow,13:28:22,Wednesday,2025-07-09,3
+S3-0000134,4E75CAB2,Bang,Anitta,pop,Moscow,20:57:26,Wednesday,2025-07-30,3
+S3-0000135,5B3BABEC,Hot Hot Hot,Arrow,pop,Saint-Petersburg,14:19:51,Monday,2025-07-14,3
+S3-0000136,8980A9C5,Aye,New World Sound,electronic,Saint-Petersburg,21:32:18,Monday,2025-07-21,3
+S3-0000137,A4A917DA,Ghetto Red Hot,unknown,mandopop,Moscow,13:06:32,Friday,2025-07-11,3
+S3-0000138,12E3BDDC,La Bayadere: Finale,John Lanchbery,classical,Moscow,09:25:20,Monday,2025-07-07,3
+S3-0000139,DE0B5D2B,יומולדת,unknown,alternativepunk,Moscow,21:29:20,Friday,2025-07-18,3
+S3-0000140,A34ADC50,Подстава,Слушай!,rusrap,Moscow,09:16:48,Friday,2025-07-11,3
+S3-0000141,C7C952D2,La La La,MattRach,pop,Saint-Petersburg,21:58:24,Friday,2025-07-25,3
+S3-0000142,717FAADD,Resolution,unknown,drum,Moscow,14:54:12,Monday,2025-07-21,3
+S3-0000143,0F3937A5,Rockefeller Street,ROCKEFELLER STREET,electronic,Saint-Petersburg,21:20:39,Wednesday,2025-07-30,3
+S3-0000144,A3F5B53A,unknown,Children Of Distance,estrada,Saint-Petersburg,08:16:08,Wednesday,2025-07-23,3
+S3-0000145,6A07E8D7,Sanam Bia,Ajam,world,Moscow,09:24:27,Monday,2025-07-14,3
+S3-0000146,BD9D7A7B,unknown,Draco Rosa,disco,Moscow,14:15:16,Monday,2025-07-14,3
+S3-0000147,76D1D119,unknown,JuuggyRaw,hip,Moscow,13:19:47,Monday,2025-07-07,3
+S3-0000148,0DBF3592,Diamonds In The Dew,Govi,pop,Saint-Petersburg,20:35:15,Wednesday,2025-07-16,3
+S3-0000149,D4D01395,Pushing Daisies,Belmont,flamenco,Saint-Petersburg,13:37:41,Monday,2025-07-21,3
+S3-0000150,B3CCE9E0,Party der Versager,Moop Mama,horror,Moscow,20:01:54,Monday,2025-07-07,3
+S3-0000151,BEEA7BDF,I Like to Move It,Snooze Red Button,pop,Moscow,13:27:18,Monday,2025-07-14,3
+S3-0000152,A1E44C98,Fluegel,Dayne S,deep,Saint-Petersburg,20:20:35,Monday,2025-07-07,3
+S3-0000153,C17F773E,King of Terrors,Obduktion,hard'n'heavy,Moscow,20:00:27,Wednesday,2025-07-16,3
+S3-0000154,508E7F02,Someone Like You,Angie Mcdougall,pop,Saint-Petersburg,08:37:26,Monday,2025-07-14,3
+S3-0000155,BD9481B3,You Were Mine,The Fireflies,pop,Moscow,09:59:34,Friday,2025-07-11,3
+S3-0000156,721939E8,Tout,Amaury Vassili,french,Saint-Petersburg,21:56:35,Monday,2025-07-28,3
+S3-0000157,58F62193,Thrift Shop,Macklestep,dance,Saint-Petersburg,21:38:50,Monday,2025-07-21,3
+S3-0000158,F4963876,Riot,Oceans Red,rock,Saint-Petersburg,14:36:33,Monday,2025-07-07,3
+S3-0000159,5CD2C75C,Yours Tonight,SHADOWKEY & SERHAT DURMUS,pop,Saint-Petersburg,20:32:57,Monday,2025-07-21,3
+S3-0000160,4D534E67,Tidal Waves and Hurricanes,Polar.,hardcore,Moscow,08:35:03,Monday,2025-07-14,3
+S3-0000161,EBC3806D,Mama,Emilio El Moro,pop,Moscow,21:59:40,Friday,2025-08-01,3
+S3-0000162,7A79C0D6,Allerhöchste Eisenbahn,Thoughts Paint The Sky,ska,Moscow,13:30:06,Wednesday,2025-07-09,3
+S3-0000163,E8D2F7DA,Last Confrontation,Nouwa,metalcore,Moscow,14:45:59,Monday,2025-07-21,3
+S3-0000164,1FB7FCD9,Naked,Matilda,newage,Saint-Petersburg,09:05:12,Wednesday,2025-07-16,3
+S3-0000165,C5E2A3EF,Dark Is the Night for All,Daniel Portman,electronic,Saint-Petersburg,13:46:10,Wednesday,2025-07-09,3
+S3-0000166,5679F1E9,Hey! Hey! Hey!,Pentagon,garage,Moscow,08:27:58,Friday,2025-07-18,3
+S3-0000167,DF1290F5,Wild Shadow 628,unknown,acid,Saint-Petersburg,13:46:42,Monday,2025-07-28,3
+S3-0000168,E2BFE108,Хорошо темперированный клавир том 2: Прелюдия и фуга No. 2 до минор BWV 871 (ар. Георгий Безруков),Юлий Реентович Ансамбль скрипачей Большого театра Ансамбль альтистов Центрального Дома работников искусств,classical,Moscow,09:02:09,Monday,2025-07-28,3
+S3-0000169,852AFE95,Total Recall,Dire Peril,metal,Moscow,14:28:28,Monday,2025-07-28,3
+S3-0000170,841A6888,Brand New,Two Moons,alternative,Moscow,08:56:35,Friday,2025-07-25,3
+S3-0000171,203A135D,And She Translated into the Sky,Levi Patel,ambient,Saint-Petersburg,08:59:08,Wednesday,2025-07-09,3
+S3-0000172,C5986AAE,Big Girls Cry,Mimoza,meditative,Moscow,08:18:14,Monday,2025-07-07,3
+S3-0000173,A03FD3F6,Me Gustas Tu,Rinaldo Gustoso,karaoke,Moscow,20:19:40,Friday,2025-08-01,3
+S3-0000174,BCE6E84D,Кросcы Fila,LILA feat. Fargo,rusrap,Moscow,13:23:00,Monday,2025-07-07,3
+S3-0000175,2420CA75,Baba Nam Kevalam,Adam Kandel,laiko,Moscow,09:12:55,Monday,2025-07-28,3
+S3-0000176,A8826CBE,Viens boire un p'tit coup à la maison,Licence Iv,miscellaneous,Saint-Petersburg,20:57:30,Monday,2025-07-07,3
+S3-0000177,AD8A7C0C,A Day With the Ugly Duckling,Michael Hamilton,children,Moscow,08:21:26,Wednesday,2025-07-16,3
+S3-0000178,C58AE91F,My Jam,Bobby Brackins,hip,Saint-Petersburg,13:29:56,Friday,2025-08-01,3
+S3-0000179,E74646C5,Vice City,Morgan Willis,electronic,Moscow,08:48:14,Monday,2025-07-07,3
+S3-0000180,905805A1,Сегодня,Добрый Злой,rock,Saint-Petersburg,21:33:56,Monday,2025-07-21,3
+S3-0000181,C2CACD7C,Killer,Skism,minimal,Moscow,21:16:39,Monday,2025-07-07,3
+S3-0000182,37B3CC3A,Half Truth,Danism Train blondewearingblack,dance,Moscow,21:25:15,Monday,2025-07-28,3
+S3-0000183,4BBD118D,Songs Of The South,David Cooler,country,Saint-Petersburg,09:54:10,Monday,2025-07-28,3
+S3-0000184,CEC128B2,This Night,Black Lab,dancehall,Saint-Petersburg,09:43:42,Wednesday,2025-07-09,3
+S3-0000185,C24714B3,Wicked Heart,Jahvinci,native,Saint-Petersburg,21:18:13,Monday,2025-07-07,3
+S3-0000186,3355C747,Message From Hell,unknown,metal,Moscow,20:17:48,Monday,2025-07-14,3
+S3-0000187,1A4075B0,Believe It,I Was the Lion,pop,Moscow,08:27:21,Friday,2025-07-25,3
+S3-0000188,4BAA8999,It'll Be All Right,King Leo,blues,Saint-Petersburg,20:42:20,Wednesday,2025-07-23,3
+S3-0000189,A345A0AF,Riot,Jesus On Extasy,rock,Saint-Petersburg,09:57:22,Friday,2025-07-18,3
+S3-0000190,D351D448,Colorado,The Flying Burrito Brothers,rock,Saint-Petersburg,20:28:34,Monday,2025-07-21,3
+S3-0000191,31E59C7D,The Nightmare Goes On,unknown,indie,Moscow,20:11:47,Wednesday,2025-07-23,3
+S3-0000192,E356F5EE,Midnight Echo 438,Oleg Lane,dance,Saint-Petersburg,14:55:05,Friday,2025-07-11,3
+S3-0000193,4AB05EEA,Long Day,Checkmate,dance,Saint-Petersburg,14:32:37,Friday,2025-07-25,3
+S3-0000194,BB3CA2D9,Lightning Bolt,Joel Plaskett Emergency,rock,Moscow,21:11:43,Friday,2025-07-18,3
+S3-0000195,B4B04973,No Good,Leticia Gore,downbeat,Saint-Petersburg,13:04:16,Friday,2025-08-01,3
+S3-0000196,6B45FE56,The Crow,Bishops Green,skarock,Moscow,08:26:36,Friday,2025-07-25,3
+S3-0000197,D7DDA0C6,Natsu Summer,Ryoji Takahashi,dance,Saint-Petersburg,08:47:58,Friday,2025-07-11,3
+S3-0000198,16A468E8,Electric Rain 626,Dana Lane,brazilian,Saint-Petersburg,14:22:36,Monday,2025-07-14,3
+S3-0000199,0F79A0CE,Chantaje,Shakira,gitarre,Moscow,21:13:48,Friday,2025-07-25,3
+S3-0000200,00E0170E,La Burrita,Toni Roca,adult,Saint-Petersburg,14:44:53,Monday,2025-07-14,3
+S3-0000201,33568EA0,Golden Shadow 234,Nina Lane,piano,Moscow,14:40:36,Wednesday,2025-07-16,3
+S3-0000202,F848F27D,Munni Baby,Gurukiran,soundtrack,Moscow,08:24:21,Wednesday,2025-07-30,3
+S3-0000203,F007C796,Ya Ji La,Tai Chi,quebecois,Moscow,21:45:07,Monday,2025-07-21,3
+S3-0000204,6A6CF3E2,Kucha las Payas,Samarcanda,pop,Saint-Petersburg,09:44:06,Wednesday,2025-07-09,3
+S3-0000205,27E840E1,Doves,Danila Rosie Romero & Benjamin Leung feat. Joel Edwards,roots,Moscow,20:14:10,Wednesday,2025-07-16,3
+S3-0000206,14FBD1E5,Paper Fire 644,Max Fox,metalcore,Saint-Petersburg,08:45:53,Friday,2025-08-01,3
+S3-0000207,77153500,Black Gloves,unknown,uzbek,Saint-Petersburg,08:13:15,Friday,2025-07-18,3
+S3-0000208,3336A01F,The Silence,Hinkstep,synthrock,Moscow,08:09:53,Friday,2025-07-18,3
+S3-0000209,F462BE39,Warm & Fuzzy,Billy Gilman,country,Saint-Petersburg,13:52:18,Friday,2025-07-11,3
+S3-0000210,08C443DA,Storm,unknown,latino,Moscow,09:35:05,Friday,2025-07-11,3
+S3-0000211,0BB234D1,Shine on Harvest Moon,Bonnie Guitar,ethnic,Moscow,09:17:33,Friday,2025-07-11,3
+S3-0000212,66C18039,С днём рождения братуха,unknown,documentary,Moscow,08:55:46,Wednesday,2025-07-23,3
+S3-0000213,7B4BF7C3,Herefore,unknown,dance,Saint-Petersburg,20:15:31,Wednesday,2025-07-23,3
+S3-0000214,2309B1DB,Under My Skin,TAEMIN,pop,Saint-Petersburg,13:38:15,Wednesday,2025-07-09,3
+S3-0000215,E358DAE6,Clap Your Hands,Le Youth,dance,Moscow,21:06:29,Wednesday,2025-07-09,3
+S3-0000216,BAECA947,"In The Hall Of The Mountain King (From ""Peer Gynt"")",Midnight Reapers,holiday,Moscow,09:05:54,Wednesday,2025-07-23,3
+S3-0000217,2DDF5DC5,я погиб,prvrln,korean,Moscow,20:36:08,Monday,2025-07-07,3
+S3-0000218,D9637D63,Por una Cabeza,Quartango,tango,Saint-Petersburg,09:51:56,Friday,2025-08-01,3
+S3-0000219,E728378F,Habitué,Dosseh,rap,Moscow,13:44:28,Friday,2025-08-01,3
+S3-0000220,F2657005,Picking up the Pieces,Amongst Thieves,posthardcore,Moscow,21:46:15,Friday,2025-08-01,3
+S3-0000221,2CF53316,Зашаманила,Назар,shanson,Saint-Petersburg,21:40:17,Wednesday,2025-07-30,3
+S3-0000222,286B2197,Meteor,Brolife,dance,Saint-Petersburg,14:23:32,Friday,2025-07-11,3
+S3-0000223,0CF135EB,А вот ведь знала,Афина,chanson,Moscow,21:53:25,Monday,2025-07-14,3
+S3-0000224,6C51ECB9,Perceptual Notions,Jim Morrison,speech,Moscow,21:22:17,Friday,2025-07-25,3
+S3-0000225,11D79EAF,Imagine Without,Dechen Shak-Dagsay,pop,Moscow,10:01:00,Friday,2025-07-18,3
+S3-0000226,FF58F98A,Падает cнег,Сергей Матвеев,ruspop,Saint-Petersburg,20:58:35,Friday,2025-07-18,3
+S3-0000227,2931C0DF,Мои чувства - кружева,Авраам Руссо,ruspop,Moscow,13:40:30,Wednesday,2025-07-30,3
+S3-0000228,A70C1C9D,Blue Light 312,unknown,gothic,Saint-Petersburg,21:39:19,Monday,2025-07-21,3
+S3-0000229,9BA406E1,Wretch,Druganaut,metal,Moscow,08:56:41,Monday,2025-07-21,3
+S3-0000230,D82CBD20,Зажигай,Karina Evn,ruspop,Moscow,13:21:52,Monday,2025-07-07,3
+S3-0000231,035CFE37,There's No Place Like Home,Carach Angren,rock,Saint-Petersburg,20:42:29,Friday,2025-07-18,3
+S3-0000232,2C9D237F,Bellagio,Russ Freeman,jazz,Saint-Petersburg,14:05:31,Wednesday,2025-07-23,3
+S3-0000233,DC9A0669,Maledives Beach Sunset,Moon de Lounge,dance,Moscow,21:17:15,Monday,2025-07-28,3
+S3-0000234,F536E50E,Molly Sandén,Organismen,korean,Moscow,08:04:48,Wednesday,2025-07-30,3
+S3-0000235,83BD70F1,Melissa's Garden,Steve Vai,rock,Moscow,08:20:44,Monday,2025-07-07,3
+S3-0000236,49B686C6,Ignite,GARABATTO,blues,Moscow,09:26:01,Friday,2025-07-25,3
+S3-0000237,982233FC,Midnight River 301,Mira Cole,rock,Saint-Petersburg,14:09:20,Wednesday,2025-07-16,3
+S3-0000238,78AF86B6,0,Контакты,punk,Saint-Petersburg,20:19:02,Wednesday,2025-07-30,3
+S3-0000239,A12FEDBB,All Around And Away We Go,Twin Sister,electronic,Moscow,08:54:52,Friday,2025-08-01,3
+S3-0000240,D52E2B9D,Jardim,Tita Lima,electronic,Moscow,20:50:52,Monday,2025-07-21,3
+S3-0000241,E11FC8E0,Pity's Fall,Des Shore,soundtrack,Saint-Petersburg,08:39:28,Wednesday,2025-07-16,3
+S3-0000242,13B1C35F,Duety,unknown,pop,Saint-Petersburg,09:41:06,Friday,2025-07-11,3
+S3-0000243,2BE2B215,Rollox,Adriatique,unknown,Saint-Petersburg,13:16:42,Wednesday,2025-07-23,3
+S3-0000244,D1286EC6,Вторая битва,Национальный заслуженный академический симфонический оркестр Украины,film,Moscow,21:43:45,Wednesday,2025-07-09,3
+S3-0000245,B4ADB49F,Free Your Energy,Magic Bang,dance,Saint-Petersburg,14:36:45,Wednesday,2025-07-09,3
+S3-0000246,41884777,Corazón de Oro,La Tubatango,latin,Saint-Petersburg,09:03:07,Friday,2025-07-25,3
+S3-0000247,EAD0C965,Play God,Sam Fender,singer,Moscow,08:27:44,Monday,2025-07-14,3
+S3-0000248,58533FE7,Гетто,Sunburst,metal,Moscow,08:33:22,Friday,2025-07-18,3
+S3-0000249,A42369D8,Verdi: Rigoletto / Act 3 - Bella figlia dell'amore,Ileana Cotrubas,classical,Moscow,09:43:49,Wednesday,2025-07-16,3
+S3-0000250,40A37298,Super Sharp Shooter,Ganja Kru,soulful,Saint-Petersburg,14:24:44,Friday,2025-08-01,3
+S3-0000251,2E18CD85,Born with the Blues,Memphis Slim,blues,Moscow,21:26:32,Friday,2025-08-01,3
+S3-0000252,190CC01B,Stab,Thee Attacks,rock,Saint-Petersburg,21:31:50,Wednesday,2025-07-30,3
+S3-0000253,B6B45437,The Last Rose Of Summer,Kanako Ito,classical,Moscow,09:44:09,Friday,2025-07-25,3
+S3-0000254,68E49251,Music Of The Earth,unknown,middle,Moscow,13:23:52,Wednesday,2025-07-16,3
+S3-0000255,A179556B,Маленькая страна,Dj Keep Calm 4U,electronic,Moscow,14:49:33,Wednesday,2025-07-16,3
+S3-0000256,12DAA37A,SEX,Mötley Crüe,hardcore,Moscow,20:06:56,Monday,2025-07-07,3
+S3-0000257,32E4A206,Prelude,Jesse Cook,local,Moscow,21:27:09,Monday,2025-07-28,3
+S3-0000258,E9312FBE,Paper Road 981,Oleg Lane,indie,Saint-Petersburg,13:23:30,Monday,2025-07-14,3
+S3-0000259,66545B35,Wild Fire 616,Max Fox,hip,Saint-Petersburg,14:13:02,Monday,2025-07-14,3
+S3-0000260,78AF86B6,Soft City 300,Alex Fox,electronic,Moscow,14:54:47,Friday,2025-08-01,3
+S3-0000261,DD84B969,Stato di gratitudine,Irene Grandi,pop,Moscow,21:58:38,Monday,2025-07-07,3
+S3-0000262,EDD73420,Дым,Project Fay,ruspop,Saint-Petersburg,13:29:01,Friday,2025-07-25,3
+S3-0000263,A078FB55,Подоляночка,LAUD,pop,Moscow,08:52:53,Friday,2025-07-18,3
+S3-0000264,4037EA2C,Exhale,System F,trance,Moscow,09:49:24,Monday,2025-07-07,3
+S3-0000265,E5326864,O Little Town Of Bethlehem,unknown,synthrock,Moscow,14:09:20,Monday,2025-07-07,3
+S3-0000266,705541A7,N2 Badinerie Suite,Nuremberg Symphony Orchestra,classical,Saint-Petersburg,08:02:45,Wednesday,2025-07-30,3
+S3-0000267,FD24D181,SMILE AGAINST BULLET,Bad Zu,newage,Moscow,21:42:40,Monday,2025-07-07,3
+S3-0000268,CF7E77F8,Cherry Pie,Warrant,rock,Saint-Petersburg,21:30:31,Monday,2025-07-28,3
+S3-0000269,951D7CE4,Молодость,Девушка школьника,indie,Moscow,13:04:19,Monday,2025-07-14,3
+S3-0000270,2902DDB7,Не бойся я с тобой,Чёрная Ленточка,punk,Moscow,08:17:26,Wednesday,2025-07-30,3
+S3-0000271,833E3CA5,Wish,unknown,dance,Saint-Petersburg,20:56:24,Friday,2025-08-01,3
+S3-0000272,5BC7F0E9,Lumen,The Revolutioners,rock,Moscow,13:17:31,Wednesday,2025-07-09,3
+S3-0000273,DA7288A0,Фиалка Монмартра: Карамболина,Татьяна Шмыга,ruspop,Moscow,08:04:49,Monday,2025-07-14,3
+S3-0000274,2F7FB8C2,Amber Wings,Bradley Scott Jones,worldbeat,Moscow,09:48:37,Monday,2025-07-14,3
+S3-0000275,6EAA75D3,Paganini : La Campanella [Rondo from Violin Cocnerto No.2 Op.7],Chloë Hanslip,classical,Moscow,13:39:24,Monday,2025-07-28,3
+S3-0000276,9C00AA53,Wild Echo 310,Max Lane,rusrap,Saint-Petersburg,20:05:53,Wednesday,2025-07-30,3
+S3-0000277,329ACD4E,Born To Break Your Heart,Reckless Love,extrememetal,Moscow,09:43:49,Monday,2025-07-28,3
+S3-0000278,D0EEC149,The Dotted Line...,Strata,adult,Saint-Petersburg,20:46:52,Friday,2025-08-01,3
+S3-0000279,DE0915C9,The Rhythm,Monti,swing,Moscow,09:42:40,Monday,2025-07-28,3
+S3-0000280,9B751C0B,Malbec,Aqua Breeze,pop,Saint-Petersburg,09:56:32,Friday,2025-08-01,3
+S3-0000281,EA97E0AA,Rolled On,Rich Rocka,rap,Saint-Petersburg,13:21:59,Friday,2025-07-25,3
+S3-0000282,3BADAC93,Beyond the Horizon of Knowledge,Johan Tronestam,electronic,Moscow,08:35:41,Monday,2025-07-28,3
+S3-0000283,E4F3F30D,Love You More,unknown,electronic,Moscow,20:49:27,Monday,2025-07-28,3
+S3-0000284,DDD390E8,Ben Hora,Pad Brapad,hip,Moscow,20:08:17,Wednesday,2025-07-30,3
+S3-0000285,E5A9D222,Amaze,unknown,electronic,Saint-Petersburg,08:35:34,Friday,2025-08-01,3
+S3-0000286,543534A7,Pororoca,Anxtron,chamber,Saint-Petersburg,20:20:09,Monday,2025-07-07,3
+S3-0000287,9F908266,Kumo no ito,passepied,pop,Moscow,09:42:55,Friday,2025-08-01,3
+S3-0000288,BA4D062C,Blue Dream 618,Vera Volkov,swing,Moscow,21:54:31,Wednesday,2025-07-16,3
+S3-0000289,23E76933,Les rois du monde,Guy Denys,hardtechno,Moscow,09:17:33,Friday,2025-07-11,3
+S3-0000290,8AB42E10,Спички,СУВОРОВА,ruspop,Moscow,14:40:32,Wednesday,2025-07-16,3
+S3-0000291,AEFF238E,Remember,unknown,rockalternative,Moscow,09:18:57,Monday,2025-07-21,3
+S3-0000292,DD4F2545,Turn the Beat Around,2011 The Workout Heroes,pop,Saint-Petersburg,14:18:28,Monday,2025-07-07,3
+S3-0000293,39717E7A,Restless Tundra,Ital Tek,electronic,Saint-Petersburg,14:14:20,Friday,2025-07-25,3
+S3-0000294,CF966C83,"The Village (From ""The Musketeers Series Three"")",Paul Englishby,christmas,Saint-Petersburg,14:17:36,Friday,2025-07-18,3
+S3-0000295,C4C0B00B,First to Die,Haymaker,mexican,Moscow,21:25:58,Wednesday,2025-07-23,3
+S3-0000296,83078864,Я снова гнию,unknown,hip,Saint-Petersburg,08:26:07,Friday,2025-08-01,3
+S3-0000297,EAFF50D3,First Reactions After Falling Through the Ice,La Dispute,taraftar,Moscow,08:29:23,Wednesday,2025-07-23,3
+S3-0000298,FCAB5BCC,Move Alone,2 Vibez,instrumental,Moscow,20:58:09,Monday,2025-07-28,3
+S3-0000299,C838D7FF,Lost in the Woods,unknown,extrememetal,Moscow,20:32:23,Friday,2025-07-25,3
+S3-0000300,F0EE3066,No Diggity,DJ Nazil,bossa,Moscow,13:54:27,Friday,2025-08-01,3
+S3-0000301,976B1538,Let Me Be Loved,James Dean,miscellaneous,Saint-Petersburg,14:43:18,Wednesday,2025-07-30,3
+S3-0000302,BEFEF025,Get That Paper,unknown,kayokyoku,Moscow,21:24:05,Monday,2025-07-28,3
+S3-0000303,485B7D5E,Roses (Registering),Ache,rock,Moscow,14:16:29,Wednesday,2025-07-16,3
+S3-0000304,B9F7E4E7,Сені ұнатты,Dzhanel,pop,Saint-Petersburg,09:35:15,Wednesday,2025-07-30,3
+S3-0000305,064B3917,I Dont Want You Now,unknown,ska,Saint-Petersburg,20:53:17,Wednesday,2025-07-16,3
+S3-0000306,F8FEB160,Zamba Azul- Alon Yavnai,Alon Yavnai,world,Moscow,09:42:00,Friday,2025-07-25,3
+S3-0000307,95B0E65D,Твои слова как мёд,Аурика Ротару,pop,Moscow,20:49:31,Monday,2025-07-28,3
+S3-0000308,3A694BAF,Barefoot,King Kooba,electronic,Saint-Petersburg,21:08:06,Wednesday,2025-07-16,3
+S3-0000309,D2D95AF7,unknown,Ed Cox,post,Saint-Petersburg,15:00:23,Wednesday,2025-07-30,3
+S3-0000310,E2C0D001,Мыши,unknown,rap,Saint-Petersburg,15:00:19,Friday,2025-08-01,3
+S3-0000311,D75A00C2,Richter: Path 5 (delta),Grace Davidson,modern,Saint-Petersburg,09:07:30,Wednesday,2025-07-23,3
+S3-0000312,B4E20A8D,Yellow Submarine,Don Randi Trio,jazz,Saint-Petersburg,08:06:02,Monday,2025-07-07,3
+S3-0000313,BBF9BEE8,Power Of Love,Deee-Lite,pop,Saint-Petersburg,10:01:18,Monday,2025-07-14,3
+S3-0000314,43CC5EC8,Don't Get Weary,Gramatik,chill,Saint-Petersburg,20:03:41,Friday,2025-07-25,3
+S3-0000315,687B8D8E,Arc Of Space,unknown,forró,Saint-Petersburg,09:37:35,Wednesday,2025-07-23,3
+S3-0000316,28C5887D,Good Vibrations,Marky Mark,pop,Moscow,21:01:46,Monday,2025-07-07,3
+S3-0000317,C7CCD6B1,Ikke snakk til meg,Merone,pop,Moscow,14:03:28,Friday,2025-07-25,3
+S3-0000318,13B1A573,Defying Symmetry,FIFTH DAWN,audiobook,Moscow,13:32:19,Friday,2025-07-18,3
+S3-0000319,F6BAFDEC,Shoutout,Wallace,hip,Moscow,13:25:27,Friday,2025-07-25,3
+S3-0000320,4D4E72A8,Fallin',Poema,singer,Moscow,13:35:43,Friday,2025-07-11,3
+S3-0000321,3FE68C24,What A Man,unknown,podcasts,Moscow,09:34:04,Wednesday,2025-07-09,3
+S3-0000322,742E8083,Broken Garden 150,Dana Stone,ruspop,Saint-Petersburg,14:50:07,Friday,2025-07-11,3
+S3-0000323,DC01D809,В стори,I.s.tina,rusrap,Saint-Petersburg,09:03:05,Friday,2025-07-25,3
+S3-0000324,4754D688,Carnival Overture Op.92,Antonín Leopold Dvorak Orchestra Prague,classical,Saint-Petersburg,14:15:53,Wednesday,2025-07-16,3
+S3-0000325,F554C5E9,Electric Rain 996,Ivan Frost,kayokyoku,Moscow,14:58:19,Monday,2025-07-14,3
+S3-0000326,5F2B61B7,Космос,unknown,showtunes,Moscow,14:30:35,Wednesday,2025-07-23,3
+S3-0000327,9BDFA53B,Golden Dream 424,unknown,progmetal,Saint-Petersburg,14:36:37,Monday,2025-07-14,3
+S3-0000328,9DCF5FA7,unknown,Pascal Rogé,house,Saint-Petersburg,13:03:37,Wednesday,2025-07-09,3
+S3-0000329,023C73F1,Garden of Light,Aeon Sable,thrash,Saint-Petersburg,09:53:35,Wednesday,2025-07-16,3
+S3-0000330,B2DAE523,Calling It,Ann Clue,dance,Moscow,08:20:32,Friday,2025-07-25,3
+S3-0000331,E25D6A4A,A Place to Call Our Home,Tom Bolton,deutschrock,Moscow,08:40:47,Monday,2025-07-14,3
+S3-0000332,13A5CF1D,Night in Dubai,Dope,rap,Moscow,20:35:34,Monday,2025-07-21,3
+S3-0000333,D3DC9A50,King of My Castle,Wamdue Project,dance,Moscow,08:03:40,Wednesday,2025-07-30,3
+S3-0000334,8BFB96BE,Больше чем любовь,Puzzle,hip,Saint-Petersburg,14:01:19,Wednesday,2025-07-23,3
+S3-0000335,00617265,Blue Fire 1,Nina Frost,estrada,Saint-Petersburg,21:56:34,Wednesday,2025-07-16,3
+S3-0000336,8D0DCE83,Transitions,Lena Natalia,classical,Saint-Petersburg,13:16:56,Wednesday,2025-07-23,3
+S3-0000337,2944B55A,'Tain't No Use,Benny Goodman and His Orchestra,jazz,Saint-Petersburg,20:11:06,Monday,2025-07-28,3
+S3-0000338,ABAA6643,Midnight Machine 10,Lera Wolf,dance,Saint-Petersburg,13:14:47,Friday,2025-08-01,3
+S3-0000339,FFA658B6,It Hurts to See You Go,Sean Chambers,blues,Saint-Petersburg,09:04:10,Friday,2025-07-11,3
+S3-0000340,D0D4BFC6,Someone Like You,Etienne de Crécy,electronic,Moscow,09:45:29,Wednesday,2025-07-09,3
+S3-0000341,A56A24E3,Young And Restless,Benjamin,pop,Moscow,13:48:14,Monday,2025-07-14,3
+S3-0000342,359DC61F,Trio Sonata I Op. 3,Poeticall Musicke,easy,Saint-Petersburg,21:44:00,Monday,2025-07-28,3
+S3-0000343,84A6A490,Close Your Eyes,Breathing Theory,metal,Saint-Petersburg,13:56:49,Friday,2025-07-18,3
+S3-0000344,03B9240D,Feel It Still,Pascal. Amen,future,Moscow,09:26:19,Wednesday,2025-07-09,3
+S3-0000345,70932940,Neon Rain 323,Max Frost,jungle,Moscow,08:53:56,Friday,2025-08-01,3
+S3-0000346,B4DAA989,unknown,unknown,metal,Moscow,21:24:48,Wednesday,2025-07-09,3
+S3-0000347,C64D3608,Bankrupt,unknown,bluegrass,Saint-Petersburg,09:19:28,Monday,2025-07-21,3
+S3-0000348,500B5A3A,Rockin' All Day and Night,Denis Mazhukov,rock,Saint-Petersburg,20:17:46,Friday,2025-08-01,3
+S3-0000349,C963CA57,Wellspring,Scott Nice,chill,Saint-Petersburg,14:08:52,Wednesday,2025-07-16,3
+S3-0000350,90697027,Улыбайся,Аивер,rock,Moscow,20:15:27,Wednesday,2025-07-16,3
+S3-0000351,AED82315,Midnight Light 163,Dana Sky,swing,Moscow,14:50:28,Monday,2025-07-14,3
+S3-0000352,FF990E2B,Burning Up,Bearcubs,dance,Moscow,09:45:09,Monday,2025-07-21,3
+S3-0000353,EA1568D7,О любви,Мурат Муратов,latin,Moscow,21:33:27,Monday,2025-07-14,3
+S3-0000354,D06FD687,The Big Bang Future,Yule,rockabilly,Moscow,14:06:27,Friday,2025-07-11,3
+S3-0000355,90755FE5,Golden Dream 291,Vera Volkov,afrikaans,Moscow,13:28:22,Friday,2025-07-11,3
+S3-0000356,50BC23A4,Symphony No. 4 in G (Arrangement: Erwin Stein; Reconstruction: Alexander Platt): II. In Gemächlicher Bewegung. Ohne Hast,Густав Малер,melodic,Moscow,21:53:07,Wednesday,2025-07-23,3
+S3-0000357,5E760411,Step Up,Darin,pop,Moscow,08:40:21,Monday,2025-07-21,3
+S3-0000358,74A9B6C6,Tainted,seyr,electronic,Moscow,21:09:28,Wednesday,2025-07-23,3
+S3-0000359,E975F910,Dulces Besos,Menudo,latin,Moscow,13:49:01,Wednesday,2025-07-16,3
+S3-0000360,CDBB5514,Silent City 873,Dana Cole,slow,Moscow,21:10:02,Friday,2025-07-25,3
+S3-0000361,2C820659,Blue River 52,unknown,eurofolk,Moscow,14:13:15,Wednesday,2025-07-30,3
+S3-0000362,F785076C,Mad About You,Alphabeat,pop,Moscow,21:57:52,Wednesday,2025-07-16,3
+S3-0000363,0050DC99,Ushuaia,SCSI9,dance,Saint-Petersburg,21:54:08,Monday,2025-07-07,3
+S3-0000364,1ED00BF5,Dance On,unknown,trip,Moscow,20:43:42,Friday,2025-07-11,3
+S3-0000365,711E5D5D,Zoom,Lil Boosie,rap,Moscow,09:43:08,Monday,2025-07-07,3
+S3-0000366,88FBCC4D,Lazy Fire 503,Ivan Rey,folktronica,Saint-Petersburg,14:38:31,Friday,2025-07-25,3
+S3-0000367,B9DC8F81,Reflecting the Stars,Tim Janis,easy,Moscow,13:54:23,Wednesday,2025-07-16,3
+S3-0000368,853B7D5D,Opal Fountain,Abakus,dance,Saint-Petersburg,13:14:29,Friday,2025-07-25,3
+S3-0000369,8AE8F1EB,Les Fusées,Alain Goraguer,hardstyle,Saint-Petersburg,13:39:43,Friday,2025-07-11,3
+S3-0000370,11E4A305,Salgamos,Kevin Roldan,singer,Moscow,20:00:33,Wednesday,2025-07-09,3
+S3-0000371,E96F6AF2,unknown,Descendents,inspirational,Moscow,13:30:59,Friday,2025-07-11,3
+S3-0000372,550E44A4,Call from the Grave,Dark Funeral,extrememetal,Saint-Petersburg,08:07:36,Friday,2025-08-01,3
+S3-0000373,B614E7D4,Про Москву,Татьяна Мужицкая,folk,Saint-Petersburg,14:02:06,Monday,2025-07-28,3
+S3-0000374,77AC1A29,Poppin Tags,Laudie,indipop,Saint-Petersburg,14:19:04,Monday,2025-07-28,3
+S3-0000375,4EDE1EA8,Behaved,Buzzov*en,taraftar,Moscow,20:53:37,Friday,2025-07-11,3
+S3-0000376,BD526DEC,Dominer Le Monde,L'Amour Plus Fort Que La Mort,melodic,Saint-Petersburg,13:15:31,Wednesday,2025-07-09,3
+S3-0000377,F66901E6,Popurri Beatles,Xavier Passos,latin,Saint-Petersburg,20:22:15,Friday,2025-07-11,3
+S3-0000378,3D05400D,Fleur,Melotronics,drum,Saint-Petersburg,21:07:31,Monday,2025-07-07,3
+S3-0000379,2984B2D0,Leave It,Rome Fortune,dance,Moscow,21:10:49,Wednesday,2025-07-30,3
+S3-0000380,E80C5243,Tourdion,Woven Chords,world,Moscow,21:55:33,Monday,2025-07-21,3
+S3-0000381,D3113E90,Oro Santo (Canción Isleña),Javier Limon,sound,Moscow,09:53:44,Wednesday,2025-07-16,3
+S3-0000382,CB9FF99A,Мой бог (Маравихер - 2),Михаил Круг,deutschspr,Saint-Petersburg,09:18:59,Monday,2025-07-28,3
+S3-0000383,99DDEDDD,Goodmornin' Da,The Tossers,argentinetango,Moscow,13:13:03,Monday,2025-07-14,3
+S3-0000384,2FD3B62E,Internatsid,J.M.K.E.,alternative,Saint-Petersburg,13:45:49,Friday,2025-07-11,3
+S3-0000385,C444F606,Overrated,Pretty Pink,jpop,Saint-Petersburg,20:52:09,Wednesday,2025-07-30,3
+S3-0000386,7FD9C5C3,Holiday,Naughty By Nature,rap,Moscow,21:46:55,Wednesday,2025-07-16,3
+S3-0000387,58F95AC6,Tantra 1,Llewellyn,new,Saint-Petersburg,20:02:53,Wednesday,2025-07-30,3
+S3-0000388,319C13BD,Solo andata,Canzoniere Grecanico Salentino,world,Moscow,08:58:35,Friday,2025-07-11,3
+S3-0000389,D73A5E2F,Got It Bad,Maverick,axé,Moscow,14:48:03,Monday,2025-07-28,3
+S3-0000390,FEAFF34A,All of Me,unknown,emo,Moscow,08:21:00,Friday,2025-08-01,3
+S3-0000391,F560DDDF,Violins,I'm From Barcelona,pop,Saint-Petersburg,21:24:48,Wednesday,2025-07-09,3
+S3-0000392,EE6F7839,Toy,Netta,pop,Moscow,09:07:09,Monday,2025-07-07,3
+S3-0000393,676725BB,Music,BLUE ENCOUNT,showtunes,Saint-Petersburg,20:31:00,Friday,2025-07-25,3
+S3-0000394,CA7EE5B2,Distant Dream 336,Max Lane,progmetal,Saint-Petersburg,13:56:36,Wednesday,2025-07-09,3
+S3-0000395,AF17B25F,By Heart (Naizust'),Ameli Na Meli,pop,Saint-Petersburg,08:44:22,Friday,2025-07-25,3
+S3-0000396,F7A9116B,Crowd Control,Dimitri Vegas,dance,Saint-Petersburg,13:21:09,Monday,2025-07-07,3
+S3-0000397,C91A889F,Осенний ветер,Валерий Палаускас,shanson,Moscow,08:19:52,Monday,2025-07-28,3
+S3-0000398,08674CB2,unknown,Max Stone,progressive,Moscow,13:06:32,Monday,2025-07-21,3
+S3-0000399,AC55EC05,Алмаз,Алиса Мон,chanson,Moscow,09:49:56,Monday,2025-07-28,3
+S3-0000400,449A4FE4,Aya Doesn't Like the Garlic Bros.,Sweatshop Boys,punk,Saint-Petersburg,14:23:04,Wednesday,2025-07-16,3
+S3-0000401,F2A60316,Asheville Home,The Humble Grapes,pop,Saint-Petersburg,21:15:58,Friday,2025-07-11,3
+S3-0000402,AEB81987,Are You Talking About Me?,unknown,pop,Saint-Petersburg,13:51:00,Monday,2025-07-21,3
+S3-0000403,D626369B,Pulp Fiction,Monster Florence,ethnic,Moscow,14:33:25,Monday,2025-07-07,3
+S3-0000404,25A78E7D,Emma,Steven Price,film,Saint-Petersburg,21:12:32,Monday,2025-07-07,3
+S3-0000405,8D91F03F,Super Serenade (feat. Rob Franken Robert Vink & Arthur Clarck),Rens Newland,jazz,Saint-Petersburg,20:48:38,Friday,2025-07-11,3
+S3-0000406,B7FBF9ED,Radio Wall Of Sound,Mick White,pop,Saint-Petersburg,08:49:38,Friday,2025-07-11,3
+S3-0000407,1B126099,Inner City Life,Goldie,surf,Moscow,14:39:22,Friday,2025-08-01,3
+S3-0000408,C9CE04B2,На окраинах Вселенной,Элизиум,punk,Saint-Petersburg,08:49:37,Friday,2025-07-25,3
+S3-0000409,00E864F5,Comme Les Oiseaux,Ishay Ribo,ethnic,Moscow,20:14:06,Monday,2025-07-07,3
+S3-0000410,A6580004,Allegro,Джузеппе Тартини,cuban,Moscow,14:30:21,Monday,2025-07-28,3
+S3-0000411,5AF24FC3,Immortal,Lil Debbie,electronic,Saint-Petersburg,21:50:21,Monday,2025-07-21,3
+S3-0000412,40E4C0AC,Снег,Катя Самбука,ruspop,Moscow,09:17:56,Monday,2025-07-28,3
+S3-0000413,40714933,"Планета ""Спорт""","Ансамбль ""Клоун Плюх и дети""",children,Moscow,20:00:23,Monday,2025-07-21,3
+S3-0000414,6BC2FF38,Nun komm der heiden heiland Bux 211,Yannick Varlet,classical,Moscow,13:33:45,Monday,2025-07-21,3
+S3-0000415,82B4480D,The Story,Andrew Rai,french,Moscow,08:28:49,Monday,2025-07-07,3
+S3-0000416,783B7A96,unknown,unknown,pop,Moscow,08:46:42,Wednesday,2025-07-30,3
+S3-0000417,949F2A01,Букет из белых роз [Букет белых роз],Круг И. & Королев В.,breaks,Moscow,13:14:34,Friday,2025-07-18,3
+S3-0000418,87084DC3,Si Jamais,ZOFKA,electronic,Moscow,14:19:37,Monday,2025-07-07,3
+S3-0000419,D88C212C,Moonshine,Katie Melua,pop,Moscow,20:29:41,Monday,2025-07-28,3
+S3-0000420,571F11BF,Soft River 34,Lera Frost,jazz,Saint-Petersburg,14:45:27,Monday,2025-07-28,3
+S3-0000421,256D6248,Самолёт,Пёс и Группа,rock,Moscow,21:14:31,Monday,2025-07-21,3
+S3-0000422,F171C1A5,Changed The Way You Kiss Me,unknown,broadway,Moscow,09:25:35,Wednesday,2025-07-16,3
+S3-0000423,BBACD71B,Navidad Nuestra,Mercedes Sosa,classical,Moscow,09:48:45,Wednesday,2025-07-30,3
+S3-0000424,BB77381E,Adagio,Don Airey,hard'n'heavy,Moscow,09:34:45,Monday,2025-07-14,3
+S3-0000425,C39C87DE,Let's Incorporate,unknown,piano,Moscow,09:20:23,Monday,2025-07-14,3
+S3-0000426,021F460E,Champions,Moe Scrilla,hip,Moscow,20:52:57,Monday,2025-07-14,3
+S3-0000427,153925B9,Here Comes The Sun,Charles Wright,jazz,Saint-Petersburg,20:32:44,Monday,2025-07-07,3
+S3-0000428,8D386DC3,Blue Machine 48,unknown,electronic,Saint-Petersburg,14:25:38,Friday,2025-07-11,3
+S3-0000429,4D611E3D,Cringe,Like Vultures,posthardcore,Saint-Petersburg,14:30:29,Wednesday,2025-07-23,3
+S3-0000430,71A0293F,Lazy Rain 246,unknown,anime,Moscow,13:15:00,Wednesday,2025-07-16,3
+S3-0000431,83DDE01C,Living Lies,Amor,alternative,Moscow,08:54:13,Friday,2025-08-01,3
+S3-0000432,4A1D5CF3,Home,Phylaxis,dance,Moscow,13:30:01,Wednesday,2025-07-16,3
+S3-0000433,C42CCBA7,The Last of Us,Tobias Rauscher,alternativepunk,Saint-Petersburg,09:12:39,Monday,2025-07-07,3
+S3-0000434,82065601,Save Me,Remy Zero,pop,Moscow,13:51:12,Wednesday,2025-07-16,3
+S3-0000435,945E88B3,Summertime,unknown,gitarre,Moscow,14:10:45,Wednesday,2025-07-09,3
+S3-0000436,3421909A,Still and Silent,Marina India,afrikaans,Moscow,13:14:43,Wednesday,2025-07-30,3
+S3-0000437,28628DE4,Midnight Shadow 238,Ivan Frost,classical,Saint-Petersburg,09:45:52,Friday,2025-07-11,3
+S3-0000438,F63C1823,Aztlán,Zoé,latin,Moscow,22:00:51,Monday,2025-07-28,3
+S3-0000439,0BBC758D,No Puedo Olvidar,Roberto Conrado,latin,Saint-Petersburg,13:30:59,Friday,2025-07-18,3
+S3-0000440,4D2A996C,Sensimilija,Darko Rundek Cargo Orkestar,triphop,Saint-Petersburg,13:08:51,Wednesday,2025-07-23,3
+S3-0000441,A8970910,Vatt'ghern,Gilead,french,Saint-Petersburg,09:25:20,Wednesday,2025-07-23,3
+S3-0000442,ED8124B3,Art Arda,Tankurt Manas,salsa,Moscow,09:44:20,Wednesday,2025-07-23,3
+S3-0000443,2746029E,Burn Slow,Jaira Burns,pop,Saint-Petersburg,13:07:17,Friday,2025-07-18,3
+S3-0000444,817D902E,Boreal Fiends,unknown,extrememetal,Saint-Petersburg,20:45:18,Friday,2025-08-01,3
+S3-0000445,D784201A,Down with Love,Sara Gazarek,jazz,Saint-Petersburg,08:52:45,Friday,2025-08-01,3
+S3-0000446,BCFE5697,Bad Timing,Andrey Azizov,emo,Moscow,21:22:57,Monday,2025-07-14,3
+S3-0000447,8D1F7193,That Thing You Do!,The Wonders,worldbeat,Moscow,14:23:11,Friday,2025-07-25,3
+S3-0000448,0BF5D597,More Human Than Human,Fightstar,posthardcore,Moscow,08:43:19,Monday,2025-07-07,3
+S3-0000449,B8AF603B,Tahdon,Hilda,pop,Moscow,13:33:19,Monday,2025-07-14,3
+S3-0000450,9D5F234E,Greensleeves,Gold Star Ballroom Orchestra,jazz,Saint-Petersburg,20:26:04,Friday,2025-08-01,3
+S3-0000451,EBBE6C7E,Titine,Marcelly,pop,Moscow,08:59:09,Friday,2025-08-01,3
+S3-0000452,FFBE3E18,Я хочу,1.kla$,rusrap,Saint-Petersburg,20:13:02,Wednesday,2025-07-23,3
+S3-0000453,50BC23A4,Midnight Signal 755,unknown,axé,Moscow,20:41:57,Monday,2025-07-21,3
+S3-0000454,BEB64051,Indo Smoke,unknown,self,Moscow,10:00:24,Wednesday,2025-07-23,3
+S3-0000455,15BE9873,Morning Silence,Bernward Koch,new,Moscow,13:45:41,Wednesday,2025-07-23,3
+S3-0000456,5C891D2B,A Lonely Vigil Pt. One,Rhiannon Bannenberg,classical,Saint-Petersburg,21:34:00,Monday,2025-07-07,3
+S3-0000457,80618AE2,Хоровод,Кружок,rock,Saint-Petersburg,09:25:06,Monday,2025-07-21,3
+S3-0000458,175C67C9,Тум балалайка,unknown,ruspop,Saint-Petersburg,13:57:40,Friday,2025-08-01,3
+S3-0000459,8C2E4776,Alright,Junior Doctor,pop,Saint-Petersburg,15:00:30,Monday,2025-07-07,3
+S3-0000460,A5BD5843,Interesting Drug,OK Go,alternative,Moscow,08:01:00,Monday,2025-07-07,3
+S3-0000461,EC88E413,Mine is Clouds,Nothing,chamber,Moscow,21:11:53,Monday,2025-07-07,3
+S3-0000462,5EF6438C,Todo Negro,Los Salvajes,world,Saint-Petersburg,20:51:11,Wednesday,2025-07-16,3
+S3-0000463,3C134F94,Crash & Burn,Solitary Experiments,electronic,Saint-Petersburg,09:15:10,Friday,2025-07-11,3
+S3-0000464,23A0CD71,She Knows It,PS,electronic,Saint-Petersburg,21:29:46,Friday,2025-07-18,3
+S3-0000465,930F974A,Midnight Radio,Hedwig And The Angry Inch - Original Broadway Cast,leftfield,Moscow,13:43:43,Wednesday,2025-07-23,3
+S3-0000466,2D6469BE,unknown,Mira Lane,inspirational,Saint-Petersburg,08:39:47,Friday,2025-08-01,3
+S3-0000467,9188218A,Muffat: Exquisitioris harmoniae instrumentalis gravi-jucundae (1689) / Concerto 1: Bona Nova In D Minor - 2. Ballo. Allegro,Concentus Musicus Vienna,tech,Moscow,09:40:27,Friday,2025-08-01,3
+S3-0000468,96387245,Hiskafya,Lipa & Matt Dubb,electronic,Moscow,09:31:31,Monday,2025-07-07,3
+S3-0000469,3ADFF26D,Change,unknown,arabic,Saint-Petersburg,13:53:38,Friday,2025-07-18,3
+S3-0000470,3D4399B4,Enough,Welbilt,pop,Moscow,21:55:05,Wednesday,2025-07-30,3
+S3-0000471,17800D09,No me Doy por Vencido,Adrian,pop,Saint-Petersburg,08:29:45,Monday,2025-07-28,3
+S3-0000472,B7A0A06D,Milk,Garbage,relax,Saint-Petersburg,09:32:02,Friday,2025-07-18,3
+S3-0000473,39838BED,Mr. Marley,Damian Marley,anime,Moscow,14:11:54,Friday,2025-07-18,3
+S3-0000474,F85A090F,Silent City 525,Max Wolf,rusrock,Saint-Petersburg,14:17:43,Friday,2025-07-25,3
+S3-0000475,8B90EA62,Zuni,Grandchildren,rock,Moscow,20:48:37,Wednesday,2025-07-23,3
+S3-0000476,7457AAEF,Ain't Nobody's Business,Ronnie Earl,blues,Moscow,09:45:10,Monday,2025-07-14,3
+S3-0000477,F16F96F1,Baby,DJ Spinall,world,Moscow,13:02:49,Friday,2025-08-01,3
+S3-0000478,E38FA711,Exist to Decay,Inoculated Life,metal,Saint-Petersburg,09:07:20,Monday,2025-07-14,3
+S3-0000479,3D358025,Delirium,Ridiculon,metal,Moscow,13:57:01,Monday,2025-07-07,3
+S3-0000480,F14DE4EC,unknown,Juyen Sebulba,electronic,Saint-Petersburg,20:28:02,Monday,2025-07-07,3
+S3-0000481,EAEBA154,My Heart Is So Heavy,Cry Boy Cry,dance,Moscow,20:23:39,Monday,2025-07-07,3
+S3-0000482,C5CA2688,P2m,EndyEnds,hip,Saint-Petersburg,14:58:34,Friday,2025-07-11,3
+S3-0000483,6EDD491F,Это город мой,Детская шоу-группа «Саманта»,children,Saint-Petersburg,13:21:46,Friday,2025-08-01,3
+S3-0000484,1BEC75F6,Midnight Fire 728,unknown,hip,Saint-Petersburg,13:03:27,Friday,2025-07-18,3
+S3-0000485,36E74369,Silent Machine 10,Oleg Volkov,black,Moscow,14:58:45,Wednesday,2025-07-16,3
+S3-0000486,21907798,#Держинебозаруку,Tony Raw,rusrap,Saint-Petersburg,08:33:18,Friday,2025-07-25,3
+S3-0000487,FDF5C553,Heart Beat,Electro Lounge All Stars,chill,Saint-Petersburg,13:46:38,Wednesday,2025-07-09,3
+S3-0000488,788C5469,Танцуй,Juce,hip,Saint-Petersburg,08:32:52,Monday,2025-07-28,3
+S3-0000489,BB98C6E9,Concerto for 2 Pianos and Orchestra in D Minor FP 61: II. Larghetto,Семён Бычков,funk,Saint-Petersburg,14:53:20,Wednesday,2025-07-09,3
+S3-0000490,1EABF4AA,Who Your God,Damnation,metal,Saint-Petersburg,21:43:05,Wednesday,2025-07-09,3
+S3-0000491,112F4D97,Inconsiderate,Krishane,hardstyle,Moscow,13:03:47,Friday,2025-08-01,3
+S3-0000492,0D2FED98,After Life,Cooly's Hot Box,rnb,Moscow,09:18:43,Friday,2025-07-18,3
+S3-0000493,D29D400A,Electric Rain 826,Oleg Rey,dance,Moscow,14:39:37,Friday,2025-07-11,3
+S3-0000494,F4BD217D,Feeling You (feat. Yasmin),Sonny Fodera,dance,Saint-Petersburg,20:44:34,Friday,2025-07-18,3
+S3-0000495,63A43948,Da Funk,Decimal Eon,electronic,Moscow,09:15:55,Friday,2025-07-18,3
+S3-0000496,B430D322,Kenny Chesney feat. Tim McGraw - Feel Like a Rockstar,DJ Top Gun,pop,Moscow,21:40:39,Monday,2025-07-07,3
+S3-0000497,C3B93440,The House That Built Me,Miranda Lambert,country,Saint-Petersburg,20:22:31,Friday,2025-07-25,3
+S3-0000498,A7E926C0,You And Me,Attack! Attack!,posthardcore,Moscow,08:24:22,Monday,2025-07-14,3
+S3-0000499,5992FDAA,How Do You Think You'll Die?,unknown,electronic,Moscow,20:46:59,Friday,2025-07-18,3
+S3-0000500,F0433204,Kill Kitten,Purple Haze,chamber,Moscow,13:21:32,Monday,2025-07-07,3
+S3-0000501,ED082C53,Desire,Sub Focus,electronic,Moscow,20:45:02,Wednesday,2025-07-16,3
+S3-0000502,A0D27640,Bad,Groovy Waters,mpb,Saint-Petersburg,21:26:38,Monday,2025-07-07,3
+S3-0000503,755A8CEC,Golden River 776,Ivan Hart,religious,Moscow,13:32:39,Monday,2025-07-28,3
+S3-0000504,8B9E92B3,Reasons for Drawing Trees,Fonogram,alternative,Saint-Petersburg,14:52:46,Wednesday,2025-07-09,3
+S3-0000505,4C4DF0C2,Mo Bamba,Squadie,hip,Moscow,21:43:24,Monday,2025-07-14,3
+S3-0000506,F81FB440,Solitude MMXIII,Totalselfhatred,rock,Moscow,08:15:31,Monday,2025-07-21,3
+S3-0000507,9E68AF1F,Favorite Song,Maya Azucena,pop,Moscow,20:05:52,Friday,2025-07-11,3
+S3-0000508,1D9A28FD,Music Is Life,Giorgia Angiuli,electronic,Moscow,08:45:27,Monday,2025-07-21,3
+S3-0000509,889AF7E4,Royal Flush,KReal & Dima Graff,malaysian,Moscow,14:20:21,Friday,2025-08-01,3
+S3-0000510,1535AC85,Another Morning Stoner,...And You Will Know Us By The Trail Of Dead,teen,Saint-Petersburg,09:36:12,Wednesday,2025-07-30,3
+S3-0000511,0BD09148,Малосольные огурчики со вкусом цианида,Bebopovsky And The Orkestry Podyezdov,instrumental,Moscow,20:09:42,Friday,2025-08-01,3
+S3-0000512,F9C0F75F,No Church in the Wild,A Surgeon,dance,Moscow,14:55:04,Wednesday,2025-07-09,3
+S3-0000513,53F84A2B,Бухое лето,Пятая бригада,punk,Saint-Petersburg,10:00:40,Monday,2025-07-07,3
+S3-0000514,52DAE29A,All That I Need,Systems In Blue,dance,Saint-Petersburg,20:15:01,Wednesday,2025-07-30,3
+S3-0000515,A8D3FB91,Brave (In the Style of Sara Bareilles),Fresh Daily Karaoke,karaoke,Moscow,08:52:07,Wednesday,2025-07-30,3
+S3-0000516,0B01FAB3,Посланница небес,Edik Salonikski,russian,Moscow,09:37:12,Monday,2025-07-07,3
+S3-0000517,99E92258,Distant Road 77,Mira Lane,dance,Saint-Petersburg,13:08:39,Monday,2025-07-14,3
+S3-0000518,E6A92643,The Night Is Young,Smash & Ridley,electronic,Moscow,14:27:08,Friday,2025-07-11,3
+S3-0000519,6D32645A,To My Groom,Ishvari,ambient,Moscow,20:52:49,Friday,2025-07-11,3
+S3-0000520,0DAADD2D,Ash,unknown,rock,Saint-Petersburg,14:28:44,Friday,2025-07-25,3
+S3-0000521,922CCC9C,Мы будем вместе,Philip Rossa,downtempo,Saint-Petersburg,14:49:19,Friday,2025-07-11,3
+S3-0000522,2CE0C415,Armed Forces,Die Robot,rock,Moscow,13:40:26,Monday,2025-07-07,3
+S3-0000523,40714933,Can't See Us (feat. Lil Jon),Rolo,alternativepunk,Moscow,09:25:00,Friday,2025-07-11,3
+S3-0000524,7C0E873D,How High the Moon,unknown,rave,Moscow,08:11:42,Monday,2025-07-21,3
+S3-0000525,E04BA373,Влюбилась,Sasha Zhulina,classicmetal,Saint-Petersburg,09:04:22,Wednesday,2025-07-30,3
+S3-0000526,A97A6C0A,Electro Remix,Alvin Risk,film,Moscow,13:20:04,Friday,2025-07-25,3
+S3-0000527,122E8A7A,Розовые шарики,INtellegent,rusrap,Moscow,09:05:57,Monday,2025-07-14,3
+S3-0000528,16E1AB9E,Fall Apart,Pur:Pur,local,Moscow,14:17:51,Wednesday,2025-07-09,3
+S3-0000529,F462BE39,Lead The Way (ft. Erick Gold),Tonic,local,Moscow,20:17:23,Wednesday,2025-07-09,3
+S3-0000530,C1A16304,Wavy,Flosstradamus,electronic,Saint-Petersburg,13:50:04,Wednesday,2025-07-30,3
+S3-0000531,576D4C26,Taboo,Christabelle,pop,Moscow,13:27:21,Friday,2025-07-25,3
+S3-0000532,89B7CC22,Concerto in F Minor for Violin Strings and Continuo Op. 8 No. 4 Rv 297 “l’ Inverno” (Winter): II. Largo,Vivaldi String Orchestra Walter Rinaldi & Julius Frederick Rinaldi,classical,Saint-Petersburg,13:51:13,Wednesday,2025-07-09,3
+S3-0000533,FFF4B861,Confessions,Kid Loco,alternative,Moscow,21:38:43,Monday,2025-07-14,3
+S3-0000534,8470A7E9,The Scientist,Joy Corporation,dance,Saint-Petersburg,13:59:18,Friday,2025-08-01,3
+S3-0000535,9A0C1BB0,Afterparty,KAN,ruspop,Moscow,21:50:25,Friday,2025-07-18,3
+S3-0000536,0C75E5A4,Illusions,Roses Gabor,rnb,Moscow,14:42:06,Friday,2025-07-18,3
+S3-0000537,09BCC920,Guardian Angel,Christine Brown,classical,Moscow,13:14:45,Monday,2025-07-07,3
+S3-0000538,F681B4DF,Танцуй,Screamteen,rusrap,Saint-Petersburg,08:08:39,Monday,2025-07-14,3
+S3-0000539,2C3B0E8C,Heilung,unknown,pop,Saint-Petersburg,13:58:57,Monday,2025-07-14,3
+S3-0000540,DA65D3B0,Blown Away,DOGSTAR,rock,Saint-Petersburg,14:19:40,Monday,2025-07-14,3
+S3-0000541,604D0559,Wild Echo 102,Max Frost,unknown,Saint-Petersburg,21:09:35,Wednesday,2025-07-16,3
+S3-0000542,D4D1EC63,Closer,Sarah Slean,pop,Moscow,20:01:45,Monday,2025-07-28,3
+S3-0000543,E27F94F7,Футбол,unknown,ska,Saint-Petersburg,20:11:27,Monday,2025-07-14,3
+S3-0000544,7B76EEA2,Paparazzi,unknown,pop,Saint-Petersburg,20:20:57,Friday,2025-08-01,3
+S3-0000545,013724F1,How High the Moon,Bar Music Jazz Stars,jazz,Saint-Petersburg,14:33:59,Monday,2025-07-07,3
+S3-0000546,ADFEEF6C,Honestly,Mat Bastard,pop,Saint-Petersburg,13:11:29,Wednesday,2025-07-16,3
+S3-0000547,4BD98E6F,Pink Noise,White Noise Spectrum,shoegazing,Saint-Petersburg,20:50:29,Monday,2025-07-14,3
+S3-0000548,5DDC136E,Верните миру любовь,Исайя,action,Saint-Petersburg,21:22:20,Wednesday,2025-07-23,3
+S3-0000549,BD9481B3,Blue Zenith,Xi,jazz,Moscow,20:08:09,Friday,2025-07-18,3
+S3-0000550,04AC9C31,Bible Belt,Dry the River,ukrrock,Moscow,21:12:55,Friday,2025-08-01,3
+S3-0000551,3FADE0B8,151,unknown,lounge,Saint-Petersburg,08:22:52,Monday,2025-07-14,3
+S3-0000552,514DD892,Gone Forever,Wearing Scars,alternative,Saint-Petersburg,08:03:15,Monday,2025-07-21,3
+S3-0000553,D40901ED,Ragatanga (Asereje),Rouge,pop,Moscow,21:53:35,Friday,2025-08-01,3
+S3-0000554,630C0A3B,Charm,unknown,vocal,Moscow,14:16:38,Friday,2025-07-18,3
+S3-0000555,F7A3E63F,Music of Hope (Piano Reprise),Tim Janis,bollywood,Saint-Petersburg,14:08:07,Wednesday,2025-07-30,3
+S3-0000556,60864740,Dolce Carnivale,Vinja,glitch,Saint-Petersburg,13:04:08,Monday,2025-07-14,3
+S3-0000557,1E337310,Svarið,Hjálmar,reggae,Saint-Petersburg,20:32:41,Friday,2025-07-18,3
+S3-0000558,F75D0AAD,Дай мне шанс,Элан,ruspop,Moscow,21:05:51,Friday,2025-07-11,3
+S3-0000559,76B54CF2,Fenster,Kraftklub,indie,Moscow,09:21:22,Monday,2025-07-07,3
+S3-0000560,877CDB56,Ex Dream (From X),I Love You! Project,shanson,Moscow,20:26:52,Monday,2025-07-07,3
+S3-0000561,33F2D458,Wild City 975,Dana Wolf,electronic,Saint-Petersburg,13:51:18,Wednesday,2025-07-16,3
+S3-0000562,BAD67D5F,AC/DC,Goldblade,rock,Saint-Petersburg,20:10:35,Monday,2025-07-07,3
+S3-0000563,2D3CB632,GRIVINA,Herzevina Vetlov,electronic,Moscow,13:53:19,Friday,2025-07-11,3
+S3-0000564,F0A965C9,unknown,Salaska,easy,Moscow,13:39:00,Friday,2025-07-18,3
+S3-0000565,9D6C4A0B,Break Yourself,unknown,specialty,Moscow,20:43:43,Wednesday,2025-07-16,3
+S3-0000566,D3755EBA,Khumba's Theme,Bruce Retief,anime,Moscow,13:24:58,Wednesday,2025-07-30,3
+S3-0000567,1CF5090F,Easy Money,Birocratic,electronic,Saint-Petersburg,13:48:02,Monday,2025-07-21,3
+S3-0000568,5A41BA6F,Serenity,unknown,quebecois,Moscow,20:20:43,Friday,2025-07-25,3
+S3-0000569,35E53B8C,Over the Rainbow,Steampunk,jazz,Moscow,14:51:22,Friday,2025-07-11,3
+S3-0000570,39F297F3,Logan Water,unknown,world,Moscow,20:37:10,Wednesday,2025-07-16,3
+S3-0000571,49E44853,Shades of Solitude,unknown,rock,Saint-Petersburg,09:24:43,Friday,2025-07-11,3
+S3-0000572,D621BD12,unknown,Editors,indie,Saint-Petersburg,20:35:46,Monday,2025-07-14,3
+S3-0000573,DC115928,Paganini : La Campanella [Rondo from Violin Cocnerto No.2 Op.7],Chloë Hanslip,classical,Saint-Petersburg,20:06:24,Monday,2025-07-14,3
+S3-0000574,B7D12280,So You Want to Be,Patti Smith Group,rock,Saint-Petersburg,13:48:24,Friday,2025-07-18,3
+S3-0000575,6B83D844,Bare Ass,Booty Man,hardtechno,Saint-Petersburg,13:04:50,Wednesday,2025-07-30,3
+S3-0000576,4A146259,Одиночество,Сергей Гвоздика,classical,Saint-Petersburg,08:18:36,Wednesday,2025-07-23,3
+S3-0000577,375487DA,Let Me Down Slow,AFSHeeN,dance,Moscow,14:50:29,Monday,2025-07-28,3
+S3-0000578,198A55AF,Cásate Conmigo,Dj Khalid,latin,Saint-Petersburg,20:15:34,Friday,2025-08-01,3
+S3-0000579,A90205DB,We Are The People,Unclubbed,dance,Moscow,21:18:49,Monday,2025-07-14,3
+S3-0000580,CE80E272,Lost in the Woods,unknown,gospel,Moscow,13:45:38,Friday,2025-07-18,3
+S3-0000581,3AD83567,Rock The Bells,LL Cool J,pop,Moscow,14:43:48,Monday,2025-07-28,3
+S3-0000582,9529B4E3,Free Love,Anca Pop,pop,Moscow,08:02:58,Monday,2025-07-14,3
+S3-0000583,903B6E46,Incancellabile,RE-MIX,dance,Moscow,20:19:12,Monday,2025-07-14,3
+S3-0000584,BC07926C,Где ты?,Полина Гагарина,ruspop,Saint-Petersburg,08:41:44,Monday,2025-07-07,3
+S3-0000585,936AE656,Носом по кокосам (feat. Маша Малиновская),MC Zali,ruspop,Moscow,20:05:39,Friday,2025-07-25,3
+S3-0000586,93F52A2C,Silent Rain 711,Mira Lane,ram,Moscow,20:06:12,Monday,2025-07-14,3
+S3-0000587,32E5AA18,Swing for Asia,unknown,jazz,Saint-Petersburg,09:20:34,Friday,2025-07-25,3
+S3-0000588,B5D8C21A,Rumba,Carlos Salzedo,classical,Saint-Petersburg,21:58:06,Friday,2025-07-11,3
+S3-0000589,2746029E,Black Suits Comin' (Nod Ya Head),Will Smith introducing TRÂ-KNOX,rap,Moscow,14:13:02,Wednesday,2025-07-09,3
+S3-0000590,356BE973,Blue Like a Sea,Boaz Sharabi,pop,Saint-Petersburg,13:57:34,Wednesday,2025-07-16,3
+S3-0000591,9A4F6F19,Black & White,Mariami,adult,Saint-Petersburg,21:16:59,Friday,2025-07-25,3
+S3-0000592,E539D629,Позитив,Lojaz,rusrap,Saint-Petersburg,20:53:09,Friday,2025-07-25,3
+S3-0000593,38E137A4,Golden Garden 134,Alex Fox,tanzorchester,Moscow,21:13:43,Wednesday,2025-07-23,3
+S3-0000594,D83453DC,Ricercar,Rosemary Hodgson,classical,Saint-Petersburg,14:06:23,Wednesday,2025-07-30,3
+S3-0000595,B8931051,Mc,unknown,orchestral,Moscow,13:03:03,Monday,2025-07-07,3
+S3-0000596,8A0430FF,Let's Go Back,Kraak & Smaak,electronic,Saint-Petersburg,21:11:13,Monday,2025-07-21,3
+S3-0000597,3B11FFB7,Why Can't People Be Colors Too?,The Whatnauts,funk,Moscow,14:51:49,Friday,2025-07-25,3
+S3-0000598,73B5CBD4,Bare Ass,Booty Man,hip,Saint-Petersburg,20:26:02,Wednesday,2025-07-23,3
+S3-0000599,4286B368,Soundcheck,Joshua Redman Elastic Band,house,Saint-Petersburg,20:16:38,Wednesday,2025-07-09,3
+S3-0000600,AA3C99DB,Collision,Bizzare Contact,psychedelic,Saint-Petersburg,13:06:47,Wednesday,2025-07-09,3
+S3-0000601,D33C8A80,Подруга друга,Жуки,rusrock,Moscow,14:06:02,Wednesday,2025-07-09,3
+S3-0000602,FC5013B0,Piano Concerto No. 1 in B-Flat Minor Op. 23: I. Allegro non troppo e molto maestoso - Allegro con spirito,Vladimir Horowitz,classical,Moscow,13:51:37,Monday,2025-07-07,3
+S3-0000603,8CC7DA1F,Crown,Post Precious,pop,Moscow,14:39:35,Wednesday,2025-07-23,3
+S3-0000604,18C3791B,Гольфстрим,unknown,hip,Saint-Petersburg,20:50:33,Monday,2025-07-21,3
+S3-0000605,9D988FA4,Maintain,unknown,soulful,Moscow,20:58:35,Monday,2025-07-21,3
+S3-0000606,7B5398A7,My Heart,YesYou,holiday,Moscow,20:02:41,Friday,2025-08-01,3
+S3-0000607,F171C1A5,All This Love,The Similou,retro,Moscow,08:34:43,Friday,2025-07-25,3
+S3-0000608,66D27BA5,Wobbly,unknown,jewish,Moscow,14:42:56,Wednesday,2025-07-16,3
+S3-0000609,B31ED5E5,Arabic,Glaucio Duarte,electronic,Moscow,09:57:14,Wednesday,2025-07-09,3
+S3-0000610,030F684C,Dirty Boys,Michael Esper,melodic,Saint-Petersburg,20:56:27,Wednesday,2025-07-09,3
+S3-0000611,BD9360CF,Broken River 983,Ivan Wolf,rock,Moscow,21:34:54,Wednesday,2025-07-30,3
+S3-0000612,661E031C,Cool Guys Don't Look At Explosions,Tune Robbers,rock,Moscow,13:39:31,Monday,2025-07-14,3
+S3-0000613,23A0CD71,My Everything.,Delly Ranx,reggae,Moscow,08:58:34,Monday,2025-07-21,3
+S3-0000614,A4A2BC8A,Wendy,Fragments,alternative,Saint-Petersburg,14:50:51,Friday,2025-07-11,3
+S3-0000615,5E7F2F64,Spend It,Dae Dae,rap,Moscow,14:39:17,Monday,2025-07-28,3
+S3-0000616,8C903517,Jetfuel (feat. Cris Gamble),Joel Fletcher,electronic,Saint-Petersburg,14:12:30,Friday,2025-07-11,3
+S3-0000617,C5A56100,Murder Ballad,People's Blues of Richmond,rock,Saint-Petersburg,21:31:52,Wednesday,2025-07-16,3
+S3-0000618,4C6508FB,Un-Break My Heart,Pietro Lacirignola,pop,Saint-Petersburg,20:38:32,Wednesday,2025-07-30,3
+S3-0000619,C7CCD6B1,Подружка,Никита Киселёв,ruspop,Moscow,20:55:16,Wednesday,2025-07-30,3
+S3-0000620,E7BB9E4E,Rambambam,Annia,pop,Saint-Petersburg,14:57:54,Monday,2025-07-28,3
+S3-0000621,8DF0EF5D,Iluminado,Rodox,rock,Saint-Petersburg,09:10:20,Monday,2025-07-28,3
+S3-0000622,43E99310,Eclipse,Erot,electronic,Moscow,21:06:37,Monday,2025-07-07,3
+S3-0000623,28183748,unknown,Dark Decks,dance,Saint-Petersburg,20:12:22,Friday,2025-07-18,3
+S3-0000624,24E7C834,Florentin,Astropilot,ambient,Saint-Petersburg,20:21:15,Friday,2025-07-18,3
+S3-0000625,05612D0C,Blue Road 967,Oleg Frost,miscellaneous,Moscow,13:46:36,Wednesday,2025-07-16,3
+S3-0000626,ABBB5552,Sawt nsaa,Soultana,cantopop,Moscow,14:52:27,Friday,2025-07-18,3
+S3-0000627,D8A2B38D,Talk To Me,unknown,jazz,Moscow,08:34:20,Friday,2025-07-18,3
+S3-0000628,75BBC109,The Dreaming Sea,PTB (Push The Button),easy,Moscow,21:20:08,Wednesday,2025-07-09,3
+S3-0000629,0EA75218,Feels Like Yesterday,Mike Williams feat. Robin Valo,house,Saint-Petersburg,20:49:05,Monday,2025-07-07,3
+S3-0000630,362BB8D5,unknown,Nina Fox,rusrap,Moscow,13:22:16,Friday,2025-07-18,3
+S3-0000631,6D7FC79F,String Quartet No. 2 in A major Op. 68: I.       Overture: moderato con moto,Квартет имени Бородина,classical,Moscow,08:20:37,Monday,2025-07-21,3
+S3-0000632,4A331CF5,The Twelve Days Of Christmas,Maranatha! Classics,caucasian,Moscow,20:01:29,Monday,2025-07-21,3
+S3-0000633,A7585A0C,Jim Dandy,LaVern Baker,rnb,Saint-Petersburg,21:12:59,Wednesday,2025-07-16,3
+S3-0000634,7F8B59F6,Душа,unknown,gothic,Moscow,14:35:58,Wednesday,2025-07-30,3
+S3-0000635,14F871F8,I Wanna Be Myself,Don Laka,local,Moscow,20:01:12,Friday,2025-07-25,3
+S3-0000636,BA922A98,Please,Sydney Valette,bluegrass,Moscow,21:14:31,Wednesday,2025-07-23,3
+S3-0000637,5AD54257,unknown,Montana Of 300,bluegrass,Saint-Petersburg,20:31:01,Monday,2025-07-07,3
+S3-0000638,1184ACD4,Requiem in D minor K.626 Sequenz: Lacrimosa,Michel Corboz/Orchestre de Chambre de Genève/Ensemble Vocal de Lausanne/Efrat Ben-Nun/Elisabeth Graf/Jeffrey Francis/Marcus Fink,classical,Moscow,09:33:18,Monday,2025-07-21,3
+S3-0000639,0359BD0F,Patterns,Gerald Wilson Big Band,jazz,Saint-Petersburg,20:41:06,Wednesday,2025-07-23,3
+S3-0000640,F590414E,If You Love Me,Brownstone,pop,Moscow,14:59:09,Wednesday,2025-07-23,3
+S3-0000641,E35585F0,It's My Love,unknown,drum,Moscow,21:56:27,Friday,2025-07-11,3
+S3-0000642,AE974F0B,Priapism,unknown,vi,Saint-Petersburg,14:03:59,Wednesday,2025-07-16,3
+S3-0000643,6375AFD5,Roots,Tobu,cuban,Moscow,13:55:17,Monday,2025-07-14,3
+S3-0000644,9923611C,Too Damn Hot,Alice Francis,world,Saint-Petersburg,08:10:21,Friday,2025-07-25,3
+S3-0000645,13F31DA0,Burn It Up,iamnot,soundtrack,Moscow,08:54:13,Wednesday,2025-07-16,3
+S3-0000646,EA576968,Damn Thing,ThatBehavior,dance,Saint-Petersburg,08:47:08,Wednesday,2025-07-09,3

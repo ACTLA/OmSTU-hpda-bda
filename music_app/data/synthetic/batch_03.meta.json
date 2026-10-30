@@ -1,0 +1,13 @@
+{
+ "kind": "correction",
+ "batch_id": 3,
+ "rows": 647,
+ "dt_min": "2025-07-07",
+ "dt_max": "2025-08-01",
+ "based_on_batch": 1,
+ "generated": {
+  "changed_genre": 208,
+  "changed_track_artist": 227,
+  "changed_city": 212
+ }
+}
